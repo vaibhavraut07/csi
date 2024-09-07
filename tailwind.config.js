@@ -13,7 +13,9 @@ module.exports = {
         'black0.20':'rgba(255, 255, 255, 0.20)',
         'yellow1':'#F2D73B',
         'gray1' : '#9B9B9B',
-        'gray2' : '#858585'
+        'gray2' : '#858585',
+        'gray3' : '#919191',
+        'blue1' : '#0062F403',
       },
       fontFamily: {
         sans: ['Google Sans', 'sans-serif'],
@@ -37,6 +39,7 @@ module.exports = {
       animation: {
         shine: 'shine 3s linear infinite',
       },
+      
     },
   },
   plugins: [],
