@@ -1,8 +1,17 @@
 import React from 'react'
+import BootcampInfo from '../components/bootcampPage/BootcampInfo'
+import DomainDetails from '../components/bootcampPage/DomainDetails'
+import Hero from '../components/landingPage/Hero'
+import Timeline from '../components/bootcampPage/Timeline'
 
 function BootcampPage() {
   return (
-    <div>Bootcamp</div>
+    <>
+      <Hero />
+      <DomainDetails />
+      <BootcampInfo />
+      <Timeline />
+    </>
   )
 }
 
