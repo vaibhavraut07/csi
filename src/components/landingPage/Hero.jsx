@@ -4,7 +4,8 @@ function Hero() {
   return (
     <>
       <div className="bg-tertiary h-screen flex items-center justify-center">
-        <h1>Hero</h1>
+      <span className="shine-text">Bootcamp</span>
+
       </div>
     </>
   )
