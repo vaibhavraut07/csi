@@ -2,7 +2,7 @@ import React from 'react'
 
 function DomainDetailsCard({ title, description, image, imageAlt, path }) {
   return (
-    <div className="group relative bg-white rounded-tl-[10px] rounded-bl-[10px] rounded-br-[10px] rounded-tr-[64px] shadow-[0px_0px_22.1px_0px_rgba(0,0,0,0.25)] bg-cover bg-center flex flex-col justify-between overflow-hidden" style={{ width: '375px', height: '508px' }}>
+    <div className="group relative bg-white rounded-tl-[10px] rounded-bl-[10px] rounded-br-[10px] rounded-tr-[64px] shadow-[0px_0px_22.1px_0px_rgba(0,0,0,0.25)] bg-cover bg-center flex flex-col justify-between overflow-hidden mx-auto" style={{ width: '375px', height: '508px' }}>
       <div>
         <h1 className='text-black font-sans text-[38px] font-medium ml-[22px] mt-[30px] leading-[100%] mr-[40px]'>
           {title}

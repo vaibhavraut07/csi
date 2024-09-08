@@ -47,7 +47,7 @@ function DomainDetails() {
     }
   ]
   return (
-    <div className="bg-gradient-to-b from-white to-[#0062F403]" style={{height:'1510px'}}>
+    <div className="bg-gradient-to-b from-white to-[#0062f444]">
       <h1 className='text-black font-sans text-5xl font-medium text-center pt-24'>
       Join a career-changing bootcamp
       </h1>
@@ -66,15 +66,10 @@ function DomainDetails() {
           <h3 className="text-black font-sans font-bold leading-snug">Networking</h3>
         </div>
       </div>
-      <div className='flex space-x-14 pt-20 justify-center'>
-        {cardDetails.slice(0, 3).map((card, index) => (
-          <DomainDetailsCard key={index} title={card.title} description={card.description} image={card.image} path={card.path}/>
-        ))}
-      </div>
-      <div className='flex space-x-14 pt-10 justify-center'>
-        {cardDetails.slice(3).map((card, index) => (
-          <DomainDetailsCard key={index} title={card.title} description={card.description} image={card.image} path={card.path}/>
-        ))}
+      <div className='grid grid-cols-1 sm-custom:grid-cols-2 lg-custom:grid-cols-3 gap-9 pt-20 mx-auto max-w-[1197px] pb-28'>
+        {cardDetails.map((card, index) => (
+              <DomainDetailsCard key={index} title={card.title} description={card.description} image={card.image} path={card.path}/>
+          ))}   
       </div>
     </div>
   )
