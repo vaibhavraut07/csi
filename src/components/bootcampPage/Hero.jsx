@@ -4,52 +4,42 @@ function Hero() {
   return (
     <>
       <div className="bg-tertiary h-screen flex items-center justify-center">
-        <div className="bg-blue-600 p-4 rounded-2xl">
-          <div className="text-[143px] font-bai font-bold leading-[0.95] tracking-[2.876px] text-white animate-shine flex items-center">
-            <div>CSI</div>
-          </div>
-        </div>
-        <div className="relative">
-              <svg xmlns="http://www.w3.org/2000/svg" width="211" height="100" viewBox="0 0 211 100" fill="none">
-                <path
-                  d="M209.049 21.8689C210.483 27.1886 209.132 33.0907 205.26 39.2759C201.386 45.4624 195.038 51.8488 186.658 58.0538C169.903 70.4602 145.188 82.0234 116.484 89.7614C87.7794 97.4994 60.6014 99.9251 39.881 97.621C29.5179 96.4687 20.8195 94.1385 14.3616 90.737C7.90507 87.3362 3.7704 82.913 2.33634 77.5932C0.902284 72.2735 2.25351 66.3714 6.1259 60.1862C9.99915 53.9997 16.3477 47.6133 24.7275 41.4083C41.4823 29.0019 66.1971 17.4387 94.9017 9.70071C123.606 1.96272 150.784 -0.46303 171.505 1.84106C181.868 2.99344 190.566 5.32361 197.024 8.72513C203.481 12.1259 207.615 16.5491 209.049 21.8689Z"
-                  stroke="#E94A47"
-                  strokeWidth="1.84555"
-                />
-              </svg>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="208"
-                height="79"
-                viewBox="0 0 208 79"
-                fill="none"
-                className="absolute inset-0"
-              >
-                <ellipse
-                  cx="104.093"
-                  cy="39.543"
-                  rx="104.105"
-                  ry="38.3854"
-                  transform="rotate(5.19406 104.093 39.543)"
-                  fill="#E94A47"
-                />
-                <text
-                  x="50%"
-                  y="50%"
-                  dominantBaseline="middle"
-                  textAnchor="middle"
-                  fontSize="14"
-                  fill="white"
-                  fontWeight="bold"
-                  transform="rotate(5.19406 104.093 39.543)"
-                >
-                  17 SEP onwards
-                </text>
-              </svg>
+        <div className="flex flex-col">
+          <div className="flex">
+            <div className="bg-blue-600 p-4 rounded-tr-2xl rounded-tl-2xl">
+              <div className="text-[143px] font-bai font-bold leading-[0.95] tracking-[2.876px] text-white animate-shine flex">
+                <div>CSI</div>
+              </div>
             </div>
-        <div className="bg-blue-600 p-4 rounded-2xl">
-          <div className="text-[143px] font-bai font-bold leading-[0.95] tracking-[2.876px] text-white animate-shine">
-            BOOTCAMP
+            <div className="relative w-[146px] h-[137px]"> {/* Container for the overlapping images */}
+              <img
+                src="/bootcamppage/oval.svg"
+                className="absolute top-0 left-0 z-10" // First image
+              />
+              <img
+                src="/bootcamppage/ellipse.svg"
+                className="absolute top-0 left-0 z-20" // Second image overlapping
+              />
+            </div>
+          </div>
+          <div className="bg-blue-600 p-4 rounded-bl-2xl rounded-br-2xl rounded-tr-2xl">
+            <div className="text-[143px] font-bai font-bold leading-[0.95] tracking-[2.876px] text-white animate-shine flex items-center justify-center">
+              BOOTCAMP
+            </div>
+          </div>
+          <div className="relative place-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="146"
+              height="137"
+              viewBox="0 0 146 137"
+              fill="none"
+            >
+              <path
+                d="M90.8906 0.0708002L99.4017 30.5402L132.28 28.6056L118.287 56.4743L145.494 75.0557L115.544 87.2837L124.35 117.687L92.4568 108.552L78.7408 136.551L59.8282 110.328L30.0082 122.822L32.9252 91.7806L0.954506 82.923L24.3361 61.588L5.1741 35.524L38.0799 33.8779L40.6926 2.80307L67.7256 21.6162L90.8906 0.0708002Z"
+                fill="#F6CB48"
+              />
+            </svg>
           </div>
         </div>
       </div>
