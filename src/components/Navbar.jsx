@@ -15,7 +15,7 @@ export default function Example() {
   return (
     <Disclosure
       as="nav"
-      className="bg-secondary rounded-full mx-24 mt-12 fixed top-0 left-0 right-0 border border-gray-900 z-50"
+      className="bg-secondary rounded-full mx-24 mt-12 fixed top-0 left-0 right-0 shadow z-50"
       style={{ height: "92px" }}
     >
       {({ open }) => (

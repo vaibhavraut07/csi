@@ -3,7 +3,7 @@ import React from 'react'
 function BootcampInfo() {
   return (
     <div className="bg-black" style={{height:'343px'}}>
-      <h1 className="font-sans text-[#F2D73B] text-4xl text-center pt-9">Bootcamp Information</h1>
+      <h1 className="font-sans text-[#F2D73B] text-4xl text-center pt-9 shine-text">Bootcamp Information</h1>
       <h2 className="font-sans text-[#858585] text-3xl text-center">All you need to know about events Information</h2>
       <div className="flex space-x-5 justify-center pb-14 pt-9">
         <div className='bg-[#ffffff33] rounded-lg' style={{height: "131px",width:"238px"}}>

@@ -22,7 +22,7 @@ module.exports = {
         },
       },
       animation: {
-        shine: 'shine 3s linear infinite',
+        shine: 'shine 5s linear infinite',
       },
       
     },

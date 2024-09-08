@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
 
 .shine-text {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.288) 0%, rgba(255, 255, 0, 0.5) 50%, rgba(255, 255, 255, 0.265) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.288) 0%, rgba(255, 255, 0, 0.744) 50%, rgba(255, 255, 255, 0.265) 100%);
   background-size: 200% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 3s linear infinite;
+  animation: shine 5s linear infinite;
 }
 
 .custom-text {
