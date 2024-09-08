@@ -2,11 +2,11 @@ import React from 'react'
 
 function DomainDetails() {
   return (
-    <div className="bg-gradient-to-b from-white to-blue1" style={{height:'1510px'}}>
+    <div className="bg-gradient-to-b from-white to-[#0062F403]" style={{height:'1510px'}}>
       <h1 className='text-black font-sans text-5xl font-medium text-center pt-20'>
       Join a career-changing bootcamp
       </h1>
-      <h2 className='text-gray3 font-sans text-3xl font-normal text-center pt-2'>Top-Notch Programs Designed for Future Leaders in Tech</h2>
+      <h2 className='text-[#919191] font-sans text-3xl font-normal text-center pt-2'>Top-Notch Programs Designed for Future Leaders in Tech</h2>
       <div className='flex space-x-14 pt-10 justify-center'>
         <div className='flex space-x-3'>
           <img className="w-6 h-6" src='/bootcamppage/check.png' alt='check' />
