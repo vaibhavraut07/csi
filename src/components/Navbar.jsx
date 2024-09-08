@@ -15,7 +15,7 @@ export default function Example() {
   return (
     <Disclosure
       as="nav"
-      className="bg-secondary rounded-full mx-24 mt-12 fixed top-0 left-0 right-0 shadow-lg z-50"
+      className="bg-secondary rounded-full mx-24 mt-12 absolute top-0 left-0 right-0 shadow z-50"
       style={{ height: "92px" }}
     >
       {({ open }) => (
@@ -36,7 +36,7 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <img className="h-14 w-14" src="/csilogo.png" alt="CSI-ACE" />
-                  <span className="ml-3 text-lg font-sans font-bold text-tertiary">
+                  <span className="ml-3 text-lg font-sans font-bold text-[#193484]">
                     CSI-ACE
                   </span>
                 </div>
@@ -49,7 +49,7 @@ export default function Example() {
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                            : "text-black-300 hover:bg-gray-700 hover:text-white",
                           "rounded-full px-4 py-3 text-xl font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -77,7 +77,7 @@ export default function Example() {
                   className={classNames(
                     item.current
                       ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      : "text-black-300 hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-xl font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 const bootcampData = {
-  ui_ux: {
+  uiux: {
     img: '/bootcamppage/detailspage/ui_ux.png',
     title: 'UI/UX Design Bootcamp',
     date: 'Sep 20-21',
@@ -71,7 +71,7 @@ const bootcampData = {
     ]
   },
 
-  web_development: {
+  webdev: {
     img: '/bootcamppage/detailspage/web_development.png',
     title: 'Web Development Bootcamp',
     date: 'Sep 20-21',
@@ -127,7 +127,7 @@ const bootcampData = {
     ]
   },
 
-  ai_ml: {
+  aiml: {
     img: '/bootcamppage/detailspage/ai_ml.png',
     title: 'AI & ML Bootcamp',
     date: 'Sep 20-21',
@@ -189,7 +189,7 @@ const bootcampData = {
     ]
   },
 
-  cybersecurity: {
+  cybersec: {
     img: '/bootcamppage/detailspage/cybersecurity.png',
     title: 'Cybersecurity Bootcamp',
     date: 'Sep 20-21',
@@ -254,7 +254,7 @@ const bootcampData = {
     ]
   },
 
-  placement: {
+  dsa: {
     img: '/bootcamppage/detailspage/placement.png',
     title: 'Placement & Industry Exposure Bootcamp',
     date: 'Sep 20-21',

@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         sans: ['Google Sans', 'sans-serif'],
         bai: ['Bai Jamjuree', 'sans-serif'],
+        ethno: ['Ethnocentric', 'sans-serif'],
       },
       keyframes: {
         shine: {
@@ -22,7 +23,7 @@ module.exports = {
         },
       },
       animation: {
-        shine: 'shine 3s linear infinite',
+        shine: 'shine 5s linear infinite',
       },
       screens:{
         'sm-custom':'840px',
