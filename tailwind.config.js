@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         sans: ['Google Sans', 'sans-serif'],
         bai: ['Bai Jamjuree', 'sans-serif'],
+        ethno: ['Ethnocentric', 'sans-serif'],
       },
       keyframes: {
         shine: {
