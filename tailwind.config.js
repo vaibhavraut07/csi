@@ -15,6 +15,7 @@ module.exports = {
         sans: ['Google Sans', 'sans-serif'],
         bai: ['Bai Jamjuree', 'sans-serif'],
         ethno: ['Ethnocentric', 'sans-serif'],
+        lexend: ['Lexend', 'sans-serif'],
       },
       keyframes: {
         shine: {
