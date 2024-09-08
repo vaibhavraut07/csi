@@ -456,20 +456,21 @@ const BootcampDetails = () => {
         </div>
 
       {/* SPEAKERS SECTION */}
-        <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-center">SPEAKER</h1>
-        <div className="px-4 sm:px-8 py-6 sm:py-10">
-          <div className="flex flex-wrap justify-center">
-            {bootcamp.speaker.map((speaker, index) => (
-              <div key={index} className="bg-white border border-gray-200 shadow-lg rounded-lg p-4 sm:p-6 m-4 max-w-xs text-center drop-shadow-lg">
-                <div className="w-40 h-40 sm:w-60 sm:h-60 mx-auto mb-4 rounded-full overflow-hidden">
-                  <img src={speaker.img} alt={speaker.name} className="w-full h-full object-cover" />
-                </div>
-                <h3 className="text-md sm:text-xl font-semibold mb-2">{speaker.name}</h3>
-                <p className="text-gray-600">{speaker.role}</p>
+      <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-center">SPEAKER</h1>
+      <div className="px-4 sm:px-8 py-6 sm:py-10">
+        <div className="flex justify-center gap-4">
+          {bootcamp.speaker.map((speaker, index) => (
+            <div key={index} className="bg-white border border-gray-200 shadow-lg rounded-lg sm:mx-4 p-4 sm:p-6 max-w-xs text-center drop-shadow-lg">
+              <div className="w-28 h-28 sm:w-60 sm:h-60 mx-auto mb-4 rounded-full overflow-hidden">
+                <img src={speaker.img} alt={speaker.name} className="w-full h-full object-cover" />
               </div>
-            ))}
-          </div>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2">{speaker.name}</h3>
+              <p className="text-gray-600">{speaker.role}</p>
+            </div>
+          ))}
         </div>
+      </div>
+
 
       </div>
     </>
