@@ -7,7 +7,7 @@ import WhyToJoin from '../components/landingPage/WhyToJoin'
 function LandingPage() {
   return (
     <>
-        <Hero />
+      <Hero />
       <AboutUs />
       <WhyToJoin />
       <Team />
