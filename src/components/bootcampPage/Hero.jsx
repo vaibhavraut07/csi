@@ -5,7 +5,7 @@ function Hero() {
     <>
       <div className="bg-tertiary h-screen flex items-center justify-center">
         <div className="bg-blue-600 p-4 rounded-2xl">
-          <div className="text-[143.789px] font-bai font-bold leading-[0.95] tracking-custom-spacing text-white animate-shine flex items-center">
+          <div className="text-[143px] font-bai font-bold leading-[0.95] tracking-[2.876px] text-white animate-shine flex items-center">
             <div>CSI</div>
             <div className="relative">
               {/* First SVG */}
@@ -49,7 +49,7 @@ function Hero() {
               </svg>
             </div>
           </div>
-          <div className="text-custom-size font-bai font-bold leading-custom-line-height tracking-[2.876px] text-white animate-shine mt-4">
+          <div className="text-[143px] font-bai font-bold leading-[0.95] tracking-[2.876px] text-white animate-shine mt-4">
             BOOTCAMP
           </div>
         </div>
