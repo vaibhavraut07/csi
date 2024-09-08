@@ -24,6 +24,10 @@ module.exports = {
       animation: {
         shine: 'shine 3s linear infinite',
       },
+      screens:{
+        'sm-custom':'840px',
+        'lg-custom':'1200px'
+      }
       
     },
   },
