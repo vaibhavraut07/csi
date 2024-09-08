@@ -10,7 +10,6 @@ module.exports = {
         secondary: '#FFF',
         tertiary: '#C3DAFC', 
         quaternary: '#0062F4',
-        'black0.20':'rgba(255, 255, 255, 0.20)',
       },
       fontFamily: {
         sans: ['Google Sans', 'sans-serif'],
