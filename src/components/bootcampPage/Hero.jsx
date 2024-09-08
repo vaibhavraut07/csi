@@ -12,7 +12,10 @@ function Hero() {
 
   return (
     <>
-      <div className="bg-tertiary h-screen flex items-center justify-center relative">
+      <div
+  className="bg-tertiary h-screen flex items-center justify-center relative"
+  style={{ background: "linear-gradient(180deg, #E0F0FF 0%, #F7FCFF 100%)" }}
+>
         <div className="flex flex-col">
           <div className="flex">
             <div className="bg-blue-600 p-4 rounded-tr-2xl rounded-tl-2xl">
@@ -52,8 +55,8 @@ function Hero() {
           </div>
           
         </div>
-        <div className="absolute bottom-10 left-0 w-full h-1 bg-blue-600 z-10"></div>
-        <div className="absolute bottom-10 left-0 w-full flex justify-between px-40">
+        <div className="absolute bottom-0 left-0 w-full h-1 bg-blue-600 z-10"></div>
+        <div className="absolute bottom-0 left-0 w-full flex justify-between px-40">
           {texts.map((text, index) => (
             <div key={index} className="relative flex flex-col items-center">
               <div className="w-1 h-12 bg-[#FFE655]"></div>
