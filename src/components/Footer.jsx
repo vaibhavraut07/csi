@@ -31,9 +31,9 @@ const footerData = {
   social: {
     heading: "Follow Us",
     items: [
-      { name: "Instagram", href: "https://www.instagram.com/csi_acoe", imgSrc: "./insta.svg" },
-      { name: "Facebook", href: "https://chat.whatsapp.com/FAtxcJseime0LrrUWC2Xqr", imgSrc: "./whatsapp.svg" },
-      { name: "LinkedIn", href: "https://www.linkedin.com/company/computer-society-of-india-ace/", imgSrc: "./linkedin.svg" },
+      { name: "Instagram", href: "https://www.instagram.com/csi_acoe", icon: "fa-brands fa-instagram" },
+      { name: "Whatsapp", href: "https://chat.whatsapp.com/FAtxcJseime0LrrUWC2Xqr", icon: "fa-brands fa-whatsapp" },
+      { name: "LinkedIn", href: "https://www.linkedin.com/company/computer-society-of-india-ace/", icon: "fa-brands fa-linkedin" },
     ],
   },
 };
@@ -86,10 +86,9 @@ function Footer() {
                   rel="noopener noreferrer" 
                   aria-label={item.name}
                 >
-                  <img 
-                    src={item.imgSrc} 
+                  <i
                     alt={item.name} 
-                    className="h-12 w-12" 
+                    className={`text-2xl pr-1 ${item.icon}`} 
                   />
                 </a>
               ))}
