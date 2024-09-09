@@ -29,7 +29,8 @@ module.exports = {
       screens:{
         'sm-custom':'840px',
         'lg-custom':'1200px'
-      }
+      },
+      scrollBehavior: ['responsive'],
       
     },
   },

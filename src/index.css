@@ -26,3 +26,7 @@
   line-height: 95%; /* 136.6px */
   letter-spacing: 2.876px;
 }
+
+body {
+  scroll-behavior: smooth;
+}

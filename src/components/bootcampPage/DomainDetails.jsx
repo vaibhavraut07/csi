@@ -47,6 +47,7 @@ function DomainDetails() {
     }
   ]
   return (
+    <section id='about'>
     <div className="bg-gradient-to-b from-white to-[#0062f444]">
       <h1 className='text-black font-sans text-5xl font-medium text-center pt-24'>
       Join a career-changing bootcamp
@@ -72,6 +73,7 @@ function DomainDetails() {
           ))}   
       </div>
     </div>
+    </section>
   )
 }
 

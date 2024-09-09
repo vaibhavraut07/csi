@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+    <div className="scroll-smooth">
       <Navbar />
       <Router>
         <div className="App">
@@ -20,6 +21,7 @@ function App() {
         </div>
       </Router>
       <Footer />
+    </div>
     </>
   );
 }
