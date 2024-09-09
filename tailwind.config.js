@@ -17,6 +17,7 @@ module.exports = {
         ethno: ['Ethnocentric', 'sans-serif'],
         lexend: ['Lexend', 'sans-serif'],
         productsans: ['"Product Sans Medium"', 'sans-serif'],
+        'product-sans-medium': ['Product Sans Medium', 'sans-serif'],
       },
       keyframes: {
         shine: {
