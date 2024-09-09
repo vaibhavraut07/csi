@@ -31,9 +31,9 @@ const footerData = {
   social: {
     heading: "Follow Us",
     items: [
-      { name: "Instagram", href: "https://www.instagram.com/csi_acoe?igsh=MXI0N3J2NGVqeXhwdg==", imgSrc: "./insta.png" },
-      { name: "Facebook", href: "https://facebook.com", imgSrc: "./fb.png" },
-      { name: "LinkedIn", href: "https://www.linkedin.com/company/computer-society-of-india-ace/", imgSrc: "./linkedin.png" },
+      { name: "Instagram", href: "https://www.instagram.com/csi_acoe", imgSrc: "./insta.svg" },
+      { name: "Facebook", href: "https://chat.whatsapp.com/FAtxcJseime0LrrUWC2Xqr", imgSrc: "./whatsapp.svg" },
+      { name: "LinkedIn", href: "https://www.linkedin.com/company/computer-society-of-india-ace/", imgSrc: "./linkedin.svg" },
     ],
   },
 };
