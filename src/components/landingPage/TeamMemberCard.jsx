@@ -6,7 +6,7 @@ function TeamMemberCard() {
         <img className="absolute rounded-[3px]" src="/landingpage/membercardbg.png"></img>
         <div className='absolute px-4'>
         <div className='w-[194px] h-[184px] bg-[#94BFFF]  mt-4 rounded-[3px] '>
-          <img className='absolute top-[-50px]' src='{imgpath}'></img>
+          <img className='absolute top-[-50px]' src='/landingpage/sree.png'></img>
         </div>
         <h1 className='mt-1 text-center font-productsans text-2xl font-bold'>Shree Shinde</h1>
         <h2 className='text-center font-productsans text-[#5E5E5E] font-bold'>UI UX Lead</h2>
