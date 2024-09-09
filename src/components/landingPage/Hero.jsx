@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="relative mt-[10px] h-[calc(100vh)] ">
+    <section className="relative  h-[calc(100vh)] bg-gradient-to-b from-[#C7DDFD] to-white">
       <img 
         src="/landingpage/Hero-img.svg" 
         alt="CSI-ACE" 

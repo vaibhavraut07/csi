@@ -2,7 +2,7 @@ import React from 'react'
 
 function TeamMemberCard({imgpath, name, role}) {
   return (
-    <div className='relative w-[227px] h-[271px] bg-white ml-5 rounded-[3px] '>
+    <div className='relative w-[227px] h-[271px] bg-white ml-5 rounded-[3px]'>
         <img className="absolute rounded-[3px]" src="/landingpage/membercardbg.png"></img>
         <div className='absolute px-4'>
         <div className='w-[194px] h-[184px] bg-[#94BFFF]  mt-4 rounded-[3px] '>
