@@ -16,6 +16,7 @@ module.exports = {
         bai: ['Bai Jamjuree', 'sans-serif'],
         ethno: ['Ethnocentric', 'sans-serif'],
         lexend: ['Lexend', 'sans-serif'],
+        productsans: ['"Product Sans Medium"', 'sans-serif'],
       },
       keyframes: {
         shine: {
@@ -26,7 +27,7 @@ module.exports = {
       animation: {
         shine: 'shine 5s linear infinite',
       },
-      screens:{
+      screens: {
         'sm-custom':'840px',
         'lg-custom':'1200px'
       },
@@ -34,5 +35,18 @@ module.exports = {
       
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.text-stroke-3px': {
+          WebkitTextStrokeWidth: '3px',
+          WebkitTextStrokeColor: 'white',
+        },
+        '.text-stroke-4px': {
+          WebkitTextStrokeWidth: '4px', // Added for customization
+          WebkitTextStrokeColor: 'white',
+        },
+      });
+    },
+  ],
 }

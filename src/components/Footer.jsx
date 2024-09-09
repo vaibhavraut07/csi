@@ -43,13 +43,11 @@ function Footer() {
     <footer className="relative md:h-[570px] bg-[#002567] text-gray-300 py-12 mt-12 p-12 ">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 gap-12 md:justify-between">
-          {/* About Section */}
           <div>
             <h3 className="text-lg font-bold text-white mb-4">{footerData.about.heading}</h3>
             <p>{footerData.about.description}</p>
           </div>
 
-          {/* Address Section */}
           <div>
             <h3 className="text-lg font-bold text-white mb-4">{footerData.address.heading}</h3>
             {footerData.address.details.map((line, index) => (
@@ -61,7 +59,6 @@ function Footer() {
             ))}
           </div>
 
-          {/* Links Section */}
           <div>
             <h3 className="text-lg font-bold text-white mb-4">{footerData.links.heading}</h3>
             <ul>
@@ -78,7 +75,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Follow Us Section */}
           <div className="mb-4 md:mb-0">
             <h3 className="text-lg font-bold text-white mb-4">{footerData.social.heading}</h3>
             <ul className="flex flex-row gap-2">
@@ -93,7 +89,7 @@ function Footer() {
                   <img 
                     src={item.imgSrc} 
                     alt={item.name} 
-                    className="h-8 w-8" 
+                    className="h-12 w-12" 
                   />
                 </a>
               ))}
@@ -102,16 +98,13 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom Text */}
       <div className="absolute bottom-0 left-0 right-0 flex justify-center">
-        <div className="relative h-[17vw] overflow-hidden flex justify-center items-center">
+        <div className="relative h-[17vw] mt-[4vw] overflow-hidden flex justify-center items-center">
           <span
-            className="text-transparent text-[17vw] opacity-10 font-lexend font-bold uppercase tracking-wide"
+            className="text-transparent text-[17vw] font-productsans opacity-10 font-bold uppercase tracking-wide text-stroke-3px"
             style={{
-              WebkitTextStrokeWidth: '3px',
-              WebkitTextStrokeColor: 'white',
               position: 'relative',
-              bottom: '-4.5vw', // Adjust as needed based on responsiveness
+              bottom: '-5.5vw', // Adjust as needed based on responsiveness
             }}
           >
             CSI - ACE
