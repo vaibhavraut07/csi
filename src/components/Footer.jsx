@@ -40,7 +40,7 @@ const footerData = {
 
 function Footer() {
   return (
-    <footer className="relative md:h-[570px] bg-[#002567] text-gray-300 py-12 mt-12 p-12 ">
+    <footer className="relative md:h-[570px] bg-[#002567] text-gray-300 py-12 p-12 ">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 gap-12 md:justify-between">
           <div>
