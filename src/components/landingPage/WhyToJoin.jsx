@@ -20,7 +20,7 @@ const sections = [
 
 function WhyToJoin() {
   return (
-    <div className='relative mx-auto px-4 sm:px-6 md:py-[4vw] md:px-[7vw]'>
+    <div className='relative mx-auto px-4 sm:px-6 md:py-[4vw] md:px-[7vw] my-[10vw]'>
       <div className=''>
         <img 
           src="/landingpage/tojoin_bg.svg" 
