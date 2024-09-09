@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 
 const bootcampData = {
@@ -397,6 +397,13 @@ const BootcampDetails = () => {
   const { bootcampName } = useParams();
   const bootcamp = bootcampData[bootcampName];
 
+  useEffect(() => {
+    document.body.style.background = 'linear-gradient(to bottom, #C3DAFD, white 10%)';
+    return () => {
+      document.body.style.background = '';
+    };
+  }, []);
+
   if (!bootcamp) {
     return <h1>404 - Bootcamp not found</h1>;
   }
@@ -404,7 +411,7 @@ const BootcampDetails = () => {
   return (
     <>
       {/* BOOTCAMP HEADER */}
-      <div className="mt-20 sm:mt-40"> 
+      <div className="mt-32 sm:mt-40"> 
         <div className="relative -z-10">
           <img src={bootcamp.img} alt={bootcamp.title} className="w-[90%] mx-auto h-[300px] sm:h-[500px] object-cover rounded-[25px]" />
           <div className="absolute w-[90%] mx-auto h-[300px] sm:h-[500px] inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-[25px]"></div>

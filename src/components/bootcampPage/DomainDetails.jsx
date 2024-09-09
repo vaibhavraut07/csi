@@ -8,42 +8,42 @@ function DomainDetails() {
       description: 'Learn the principles of design, Wireframing, Prototyping, and Mastering Figma.',
       image: '/bootcamppage/domaindetails/uiuxcardimg.png',
       imageAlt: 'uiuxcardimg',
-      path: '#'
+      path: '/bootcamp/uiux'
     },
     {
       title: 'Web Development Bootcamp',
       description: 'Master HTML, CSS, JavaScript, and React to build modern web applications.',
       image: '/bootcamppage/domaindetails/webdevcardimg.png',
       imageAlt: 'webdevcardimg',
-      path: '#'
+      path: '/bootcamp/webdev'
     },
     {
       title: 'AI & ML Bootcamp',
       description: 'Dive into machine learning algorithms, model building and practical AI projects.',
       image: '/bootcamppage/domaindetails/aimlcardimg.png',
       imageAlt: 'aimlcardimgimg',
-      path: '#'
+      path: '/bootcamp/aiml'
     },
     {
       title: 'Cybersecurity Bootcamp',
       description: 'Master network security, ethical hacking and hands-on tools.',
       image: '/bootcamppage/domaindetails/cyberseccardimg.png',
       imageAlt: 'cyberseccardimg',
-      path: '#'
+      path: '/bootcamp/cybersec'
     },
     {
       title: 'Placement & Industry Exposure',
       description: 'A comprehensive guide to interview preparation, technical skills, career paths, and professional development for job seekers.',
       image: '/bootcamppage/domaindetails/placementscardimg.png',
       imageAlt: 'placementscardimg',
-      path: '#'
+      path: '/bootcamp/dsa'
     },
     {
       title: 'Git & GitHub + LinkedIn',
       description: 'An in-depth introduction to Git and GitHub, covering version control fundamentals, repository management, and open-source contributions.',
       image: '/bootcamppage/domaindetails/gitlinkedincardimg.png',
       imageAlt: 'gitlinkedincardimg',
-      path: '#'
+      path: '/bootcamp/git'
     }
   ]
   return (
