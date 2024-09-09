@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutUs() {
   return (
-    <section id="about" className="flex flex-col items-center justify-center py-20 bg-white ">
+    <section id="about" className="flex flex-col items-center justify-center bg-white ">
       {/* Title */}
       <div className="text-center mb-10 relative flex items-center justify-center w-full ">
         {/* Left line */}
