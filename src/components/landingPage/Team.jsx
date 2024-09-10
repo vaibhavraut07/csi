@@ -9,7 +9,7 @@ function Team() {
       "imgpath": "/team/jay.svg"
     },
     {
-      "name":"Shree Shinde",
+      "name":"Nishit Prabhu",
       "role":"Secretary",
       "imgpath":"/team/nishit.svg"
     },
@@ -19,7 +19,7 @@ function Team() {
       "imgpath": "/team/anand.svg"
     },
     {
-      "name": "Shree Shinde",
+      "name": "Ayush Sonar",
       "role": "Treasurer",
       "imgpath": "/team/ayush.svg"
     },
@@ -34,19 +34,20 @@ function Team() {
       "imgpath": "/team/akash.svg"
     },
     {
-      "name": "Shravani pawar",
-      "role": "UI UX Lead",
-      "imgpath": "/team/shravani.svg"
+      "name": "Sanskriti Mahadik",
+      "role": "Creative Lead",
+      "imgpath": "/team/sanskriti.svg"
     },
     {
       "name": "Shree Shinde",
       "role": "UI UX Lead",
       "imgpath": "/team/shree.svg"
-    },
+    }]
+    const teamMembers2=[
     {
-      "name": "Sanskriti mahadik",
-      "role": "Creative Lead",
-      "imgpath": "/team/sanskriti.svg"
+      "name": "Shravani Pawar",
+      "role": "UI UX Lead",
+      "imgpath": "/team/shravani.svg"
     },
     {
       "name": "Ajinkya Wankhede",
@@ -59,7 +60,7 @@ function Team() {
       "imgpath": "/team/chinmae.svg"
     },
     {
-      "name": "Vedanshkumar Gothi",
+      "name": "Vedansh Gothi",
       "role": "Management Lead",
       "imgpath": "/team/vedance.svg"
     },
@@ -96,7 +97,7 @@ function Team() {
           </div>
         </div>
         <div className='relative flex overflow-hidden' style={{ width: '100vw', maskImage: 'linear-gradient(to right, transparent, black 10%, black 100%)' }}>
-          <div className='flex flex-col gap-10 pt-10 animate-marquee whitespace-nowrap'>
+          <div className='flex flex-col gap-14 pt-12 animate-marquee whitespace-nowrap'>
             <div className='flex'>
               {
                 teamMembers.map((member, index) => (
@@ -106,13 +107,13 @@ function Team() {
             </div>
             <div className='flex'>
               {
-                teamMembers.map((member, index) => (
+                teamMembers2.map((member, index) => (
                   <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath} />
                 ))
               }
             </div>
           </div>
-          <div className='absolute flex flex-col gap-10 pt-10 animate-marquee2 whitespace-nowrap'>
+          <div className='absolute flex flex-col gap-14 pt-12 animate-marquee2 whitespace-nowrap'>
             <div className='flex'>
               {
                 teamMembers.map((member, index) => (
@@ -122,7 +123,7 @@ function Team() {
             </div>
             <div className='flex'>
               {
-                teamMembers.map((member, index) => (
+                teamMembers2.map((member, index) => (
                   <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath} />
                 ))
               }

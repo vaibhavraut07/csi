@@ -32,10 +32,10 @@ module.exports = {
         },
         marquee: {
           '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(-100%)' },
         },
         marquee2: {
-          '0%': { transform: 'translateX(50%)' },
+          '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
         },
         fadeIn: {
@@ -65,8 +65,8 @@ module.exports = {
       },
       animation: {
         shine: 'shine 5s linear infinite',
-        marquee: 'marquee 15s linear infinite',
-        marquee2: 'marquee2 15s linear infinite',
+        marquee: 'marquee 30s linear infinite',
+        marquee2: 'marquee2 30s linear infinite',
         fadeIn: 'fadeIn 1s ease-in-out',
         fadeInLeft: 'fadeInLeft 1.5s ease-in-out',
         fadeInRight: 'fadeInRight 1.5s ease-in-out',
