@@ -419,7 +419,7 @@ const BootcampDetails = () => {
             <h1 className="text-white text-3xl sm:text-6xl font-bold drop-shadow-lg">{bootcamp.title}</h1>
           </div>
         </div>
-
+        <div className='mx-auto'>
         <div className="px-8 sm:px-8 pt-6 pb-12 sm:py-10">
           <div className="max-w-2xl mx-auto sm:ml-20">
             <p className="text-gray-900 text-lg sm:text-2xl font-semibold mb-2">{bootcamp.date}</p>
@@ -436,7 +436,7 @@ const BootcampDetails = () => {
       {/* EVENT DETAILS */}
         <h1 className="text-3xl sm:text-4xl font-bold text-center">ABOUT THE EVENT</h1>
         <div className="px-8 sm:px-8 py-6 sm:py-10">
-          <div className="max-w-4xl mx-auto sm:ml-20">
+          <div className="max-w-4xl mx-auto">
             <h2 className="text-[#919191] text-lg sm:text-2xl mb-4">{bootcamp.about.headline}</h2>
             
             <ul className="list-disc list-inside mb-6 sm:mb-10">
@@ -461,7 +461,7 @@ const BootcampDetails = () => {
             ))}
           </div>
         </div>
-
+        </div>
       {/* SPEAKERS SECTION */}
       <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-center">SPEAKER</h1>
       <div className="px-4 sm:px-8 py-6 sm:py-10">
