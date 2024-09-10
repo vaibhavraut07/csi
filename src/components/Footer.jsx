@@ -23,8 +23,7 @@ const footerData = {
     heading: "Quick Links",
     items: [
       { name: "Home", href: "/" },
-      { name: "Tech", href: "/tech" },
-      { name: "About", href: "/about" },
+      { name: "About", href: "#about" },
       { name: "Bootcamp", href: "/bootcamp" },
     ],
   },
