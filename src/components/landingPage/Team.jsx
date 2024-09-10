@@ -4,44 +4,79 @@ import TeamMemberCard from './TeamMemberCard.jsx';
 function Team() {
   const teamMembers = [
     {
+      "name": "Jay Patel",
+      "role": "Chairperson",
+      "imgpath": "/team/jay.svg"
+    },
+    {
+      "name":"Shree Shinde",
+      "role":"Secretary",
+      "imgpath":"/team/nishit.svg"
+    },
+    {
+      "name": "Anand Subramani",
+      "role": "Deputy Secretary",
+      "imgpath": "/team/anand.svg"
+    },
+    {
       "name": "Shree Shinde",
+      "role": "Treasurer",
+      "imgpath": "/team/ayush.svg"
+    },
+    {
+      "name": "Vedant Farkade",
+      "role": "Technical Lead",
+      "imgpath": "/team/vedant.svg"
+    },
+    {
+      "name": "Akash Kolakkal",
+      "role": "Web dev Lead",
+      "imgpath": "/team/akash.svg"
+    },
+    {
+      "name": "Shravani pawar",
       "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "imgpath": "/team/shravani.svg"
     },
     {
       "name": "Shree Shinde",
       "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "imgpath": "/team/shree.svg"
     },
     {
-      "name": "Shree Shinde",
-      "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "name": "Sanskriti mahadik",
+      "role": "Creative Lead",
+      "imgpath": "/team/sanskriti.svg"
     },
     {
-      "name": "Shree Shinde",
-      "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "name": "Ajinkya Wankhede",
+      "role": "Assi-Creative Lead",
+      "imgpath": "/team/ajinkya.svg"
     },
     {
-      "name": "Shree Shinde",
-      "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "name": "Chinmayee Bidaye",
+      "role": "Social Media Lead",
+      "imgpath": "/team/chinmae.svg"
     },
     {
-      "name": "Shree Shinde",
-      "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "name": "Vedanshkumar Gothi",
+      "role": "Management Lead",
+      "imgpath": "/team/vedance.svg"
     },
     {
-      "name": "Shree Shinde",
-      "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "name": "Pratham Nibade",
+      "role": "Public relation Lead",
+      "imgpath": "/team/pratham.svg"
     },
     {
-      "name": "Shree Shinde",
-      "role": "UI UX Lead",
-      "imgpath": "/landingpage/sree.png"
+      "name": "Parth Mhatre",
+      "role": "Sponsorship Lead",
+      "imgpath": "/team/parth.svg"
+    },
+    {
+      "name": "Rutuja Lubal",
+      "role": "Documentation Lead",
+      "imgpath": "/team/rutuja.svg"
     },
   ];
 

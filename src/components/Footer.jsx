@@ -40,7 +40,7 @@ const footerData = {
 function Footer() {
   return (
     <footer className="relative md:h-[570px] bg-[#002567] text-gray-300 py-12 p-12 ">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 mb-5" >
         <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 gap-12 md:justify-between">
           <div>
             <h3 className="text-lg font-bold text-white mb-4">{footerData.about.heading}</h3>
@@ -97,7 +97,7 @@ function Footer() {
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 flex justify-center">
-        <div className="relative h-[17vw] mt-[4vw] overflow-hidden flex justify-center items-center">
+        <div className="relative h-[17vw]  overflow-hidden flex justify-center items-center">
           <span
             className="text-transparent text-[17vw] font-productsans opacity-10 font-bold uppercase tracking-wide text-stroke-3px"
             style={{
