@@ -167,7 +167,7 @@ function Timeline() {
                       </div>
 
                       {/* Center Dots */}
-                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-8 sm:w-12" />
+                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-6 sm:w-8" />
 
                       {/* Right Side (Date) */}
                       <div className={`w-1/2 sm:w-1/3 flex justify-start px-4 sm:px-8 ${
@@ -194,7 +194,7 @@ function Timeline() {
                       </div>
 
                       {/* Center Dots */}
-                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-8 sm:w-12" />
+                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-6 sm:w-8" />
 
                       {/* Right Side (Title) */}
                       <div className={`w-1/2 sm:w-1/3 flex justify-start px-4 sm:px-8 ${
