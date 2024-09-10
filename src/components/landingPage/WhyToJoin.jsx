@@ -31,7 +31,7 @@ function WhyToJoin() {
       </div>
       <div className='flex flex-col md:flex-row md:gap-[2vw] gap-6 z-10'>
         <div className="md:w-[25vw] pt-10 md:pt-14 z-10 md:justify-start justify-center">
-          <div className="text-[#5E5E5E] font-productsans text-6xl md:text-7xl font-semibold leading-tight md:leading-[1.25]">
+          <div className="text-[#5E5E5E] pl-4 font-productsans text-6xl md:text-7xl font-semibold leading-tight md:leading-[1.25]">
             Why To <br /> Join CSI ?
           </div>
         </div>

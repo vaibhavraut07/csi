@@ -368,7 +368,7 @@ const bootcampData = {
       {
         img: '/team/ayush.svg',
         name: 'Aysuh Sonar',
-        role: 'Tresurer'
+        role: 'Treasurer'
       }
     ]
   },
