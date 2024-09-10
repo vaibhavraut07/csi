@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Hero() {
-  const [imgSrc, setImgSrc] = useState("/landingpage/Hero-img.svg")
+  const [imgSrc, setImgSrc] = useState("/landingpage/Hero-img.svg");
 
   useEffect(() => {
     const updateImageSrc = () => {
@@ -28,8 +28,9 @@ export default function Hero() {
       />
 
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-        <h1 className="shiny-text text-9xl font-bold mb-4 font-ethno text-primary p-5" data-text="CSI-ACE">
-          CSI-ACE
+        <h1 className="text-9xl font-bold mb-4 font-ethno text-primary p-5 shiny-text" data-text="CSI-ACE">
+          <span className="block md:inline">CSI-</span>
+          <span className="block md:inline">ACE</span>
         </h1>
         <p className="text-2xl mb-8 font-bai text-primary font-thin">Computer Society of India</p>
       </div>
