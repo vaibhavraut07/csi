@@ -39,7 +39,7 @@ const footerData = {
 
 function Footer() {
   return (
-    <footer className="bg-[#002567] text-gray-300 pt-14 px-12">
+    <footer className="bg-[#002567] text-gray-300 pt-14 sm:px-12 px-8">
       <div className='flex flex-col'>
         <div className="mx-auto px-4 sm:px-6 lg:px-8 pb-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
@@ -98,7 +98,7 @@ function Footer() {
 
           <div className="relative flex h-[14vw] md:h-[10vw] overflow-hidden justify-center mt-6">
             <span
-              className="absolute top-[-7%] md:top-[-6vw] text-transparent text-[15vw] md:text-[17.5vw] font-productsans opacity-10 font-bold uppercase tracking-wide text-stroke-3px"
+              className="absolute top-[-7%] md:top-[-6vw] text-transparent text-[14vw] md:text-[17.5vw] font-productsans opacity-10 font-bold uppercase tracking-wide text-stroke-3px"
             >
               CSI - ACE
             </span>
