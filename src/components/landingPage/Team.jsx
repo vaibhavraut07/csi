@@ -60,11 +60,7 @@ function Team() {
             <img className="mt-2" src='/landingpage/line14.svg' alt="underline" />
           </div>
         </div>
-
-        <div className='relative flex overflow-hidden'>
-          <div className='absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[#94BFFF] to-transparent pointer-events-none'></div>
-          <div className='absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[#94BFFF] to-transparent pointer-events-none'></div>
-          
+        <div className='relative flex overflow-hidden' style={{ width: '100vw', maskImage: 'linear-gradient(to right, transparent, black 10%, black 100%)' }}>
           <div className='flex flex-col gap-10 pt-10 animate-marquee whitespace-nowrap'>
             <div className='flex'>
               {
@@ -81,8 +77,7 @@ function Team() {
               }
             </div>
           </div>
-
-          <div className='absolute inset-y-0 flex flex-col gap-10 pt-10 animate-marquee2 whitespace-nowrap'>
+          <div className='absolute flex flex-col gap-10 pt-10 animate-marquee2 whitespace-nowrap'>
             <div className='flex'>
               {
                 teamMembers.map((member, index) => (
@@ -101,7 +96,8 @@ function Team() {
         </div>
       </div>
     </div>
-  );
-}
+  )
+  
+}  
 
 export default Team;
