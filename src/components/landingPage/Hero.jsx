@@ -1,10 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Hero() {
+  const [imgSrc, setImgSrc] = useState("/landingpage/Hero-img.svg")
+
+  useEffect(() => {
+    const updateImageSrc = () => {
+      if (window.innerWidth < 840) {
+        setImgSrc("/landingpage/hero-responsive.svg");
+      } else {
+        setImgSrc("/landingpage/Hero-img.svg");
+      }
+    };
+
+    updateImageSrc();
+
+    window.addEventListener("resize", updateImageSrc);
+
+    return () => window.removeEventListener("resize", updateImageSrc);
+  }, []);
+
   return (
     <section className="relative h-[calc(100vh)] bg-gradient-to-b from-[#C7DDFD] to-white">
       <img 
-        src="/landingpage/Hero-img.svg" 
+        src={imgSrc}
         alt="CSI-ACE" 
         className="absolute inset-0 w-full h-full object-cover rounded-[35px] p-5"
       />

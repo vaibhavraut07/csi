@@ -413,15 +413,15 @@ const BootcampDetails = () => {
       {/* BOOTCAMP HEADER */}
       <div className="mt-32 sm:mt-40"> 
         <div className="relative -z-10">
-          <img src={bootcamp.img} alt={bootcamp.title} className="w-[90%] mx-auto h-[300px] sm:h-[500px] object-cover rounded-[25px]" />
-          <div className="absolute w-[90%] mx-auto h-[300px] sm:h-[500px] inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-[25px]"></div>
-          <div className="absolute bottom-0 left-5 sm:left-40 mx-auto p-4">
+          <img src={bootcamp.img} alt={bootcamp.title} className="w-[90%] sm:w-[80%] mx-auto h-[300px] sm:h-[500px] object-cover rounded-[25px]" />
+          <div className="absolute w-[90%] sm:w-[80%] mx-auto h-[300px] sm:h-[500px] inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-[25px]"></div>
+          <div className="absolute bottom-0 left-5 sm:left-[15rem] mx-auto p-4">
             <h1 className="text-white text-3xl sm:text-6xl font-bold drop-shadow-lg">{bootcamp.title}</h1>
           </div>
         </div>
-        <div className='mx-auto'>
+        <div className='mx-auto"'>
         <div className="px-8 sm:px-8 pt-6 pb-12 sm:py-10">
-          <div className="max-w-2xl mx-auto sm:ml-20">
+          <div className="max-w-4xl mx-auto">
             <p className="text-gray-900 text-lg sm:text-2xl font-semibold mb-2">{bootcamp.date}</p>
             <p className="text-gray-900 text-md sm:text-xl font-semibold mb-4 sm:mb-6">Atharva College of Engineering (Mumbai)</p>
             <button className="bg-white text-black font-semibold border border-gray-500 px-4 sm:px-6 py-2 rounded-full hover:bg-gray-100 hover:border-gray-400 transition">
