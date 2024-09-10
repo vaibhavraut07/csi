@@ -32,11 +32,38 @@ module.exports = {
           '0%': { transform: 'translateX(50%)' },
           '100%': { transform: 'translateX(0%)' },
         },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        },
+        fadeInLeft: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateX(-20px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateX(0)'
+          }
+        },
+        fadeInRight: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateX(20px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateX(0)'
+          }
+        },
       },
       animation: {
         shine: 'shine 5s linear infinite',
         marquee: 'marquee 15s linear infinite',
         marquee2: 'marquee2 15s linear infinite',
+        fadeIn: 'fadeIn 1s ease-in-out',
+        fadeInLeft: 'fadeInLeft 1.5s ease-in-out',
+        fadeInRight: 'fadeInRight 1.5s ease-in-out',
       },
       screens: {
         'sm-custom':'840px',
