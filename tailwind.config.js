@@ -11,6 +11,12 @@ module.exports = {
         tertiary: '#C3DAFC', 
         quaternary: '#0062F4',
       },
+      boxShadow: {
+        'glow': '0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(0, 150, 255, 0.4)',
+      },
+      textShadow: {
+        'glow': '0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5)',
+      },
       fontFamily: {
         sans: ['Google Sans', 'sans-serif'],
         bai: ['Bai Jamjuree', 'sans-serif'],
