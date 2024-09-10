@@ -361,14 +361,14 @@ const bootcampData = {
 
     speaker: [
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/jay.svg',
+        name: 'Jay Patel',
+        role: 'CSI Chairperson'
       },
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/ayush.svg',
+        name: 'Aysuh Sonar',
+        role: 'Tresurer'
       }
     ]
   },
