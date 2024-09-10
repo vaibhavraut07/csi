@@ -414,7 +414,7 @@ const BootcampDetails = () => {
       <div className="mt-32 sm:mt-40"> 
         <div className="relative -z-10">
           <img src={bootcamp.img} alt={bootcamp.title} className="w-[90%] sm:w-[80%] mx-auto h-[300px] sm:h-[500px] object-cover rounded-[25px]" />
-          <div className="absolute w-[80%] mx-auto h-[300px] sm:h-[500px] inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-[25px]"></div>
+          <div className="absolute w-[90%] sm:w-[80%] mx-auto h-[300px] sm:h-[500px] inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-[25px]"></div>
           <div className="absolute bottom-0 left-5 sm:left-[15rem] mx-auto p-4">
             <h1 className="text-white text-3xl sm:text-6xl font-bold drop-shadow-lg">{bootcamp.title}</h1>
           </div>
