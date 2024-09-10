@@ -1,106 +1,107 @@
-import React from 'react'
-import TeamMemberCard from './TeamMemberCard.jsx'
-function Team() {
+import React from 'react';
+import TeamMemberCard from './TeamMemberCard.jsx';
 
+function Team() {
   const teamMembers = [
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
     {
-      "name":"Shree Shinde",
-      "role":"UI UX Lead",
-      "imgpath":"/landingpage/sree.png"
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/landingpage/sree.png"
     },
-  ]
+  ];
 
   return (
-    <div className='bg-[#94BFFF] py-20 px-20'>
-      <div className='flex flex-row gap-12 ml-40'>
-        <div className='flex flex-col text-[5rem] justify-center text-[#5E5E5E] font-productsansmedium font-medium leading-tight'>
-          <div>
-            Meet Our
-          </div>
-          <div className='flex flex-row gap-6'>
+    <div className='bg-[#94BFFF] py-10 px-6 sm:px-0 sm:py-20 sm:pl-20'>
+      <div className='flex flex-col lg:flex-row gap-12'>
+        <div className='flex flex-col w-full lg:w-[40vw] text-3xl sm:text-5xl lg:text-6xl pl-[5vw] justify-center text-[#5E5E5E] font-productsansmedium font-medium leading-tight'>
+          <div>Meet Our</div>
+          <div className='flex flex-row gap-4 items-center'>
+            <div>Team</div>
             <div>
-              Team
-            </div>
-            <div>
-            <img className="" src='/landingpage/wavinghand.png' />
+              <img className="w-10 h-10 sm:w-12 sm:h-12" src='/landingpage/wavinghand.png' alt="waving hand" />
             </div>
           </div>
           <div>
-          <img className="" src='/landingpage/line14.svg' />
+            <img className="mt-2" src='/landingpage/line14.svg' alt="underline" />
           </div>
         </div>
-        <div className='relative flex overflow-hidden'> 
+
+        <div className='relative flex overflow-hidden'>
+          <div className='absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[#94BFFF] to-transparent pointer-events-none'></div>
+          <div className='absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[#94BFFF] to-transparent pointer-events-none'></div>
+          
           <div className='flex flex-col gap-10 pt-10 animate-marquee whitespace-nowrap'>
-            <div className='flex'>  
-            {
-                teamMembers.map((member,index) => (
-                  <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath}/>
+            <div className='flex'>
+              {
+                teamMembers.map((member, index) => (
+                  <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath} />
                 ))
               }
             </div>
             <div className='flex'>
               {
-                  teamMembers.map((member,index) => (
-                    <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath}/>
-                  ))
-                }
-            </div>  
+                teamMembers.map((member, index) => (
+                  <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath} />
+                ))
+              }
+            </div>
           </div>
-          <div className=' absolute flex flex-col gap-10 pt-10 animate-marquee2 whitespace-nowrap'>
+
+          <div className='absolute inset-y-0 flex flex-col gap-10 pt-10 animate-marquee2 whitespace-nowrap'>
             <div className='flex'>
-            {
-                teamMembers.map((member,index) => (
-                  <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath}/>
+              {
+                teamMembers.map((member, index) => (
+                  <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath} />
                 ))
               }
             </div>
             <div className='flex'>
               {
-                  teamMembers.map((member,index) => (
-                    <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath}/>
-                  ))
-                }
-            </div>  
+                teamMembers.map((member, index) => (
+                  <TeamMemberCard key={index} name={member.name} role={member.role} imgpath={member.imgpath} />
+                ))
+              }
+            </div>
           </div>
         </div>
       </div>
-  </div>
-  )
+    </div>
+  );
 }
 
-export default Team 
+export default Team;
