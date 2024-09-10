@@ -35,37 +35,61 @@ body {
 
 .shiny-text {
   position: relative;
-  color: #00215e; 
-  background-color: #00215e; 
+  color: #00215e; /* Base color for the text */
+  background-color: #00215e; /* Keeps the base text blue */
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent; 
-  white-space: nowrap; 
-  overflow: visible; 
-  font-style: italic; 
+  color: transparent; /* Ensures the background clip shows */
+  white-space: nowrap; /* Prevents wrapping which can cause clipping */
+  overflow: visible; /* Ensures no overflow clipping */
+  font-style: italic; /* Ensure the text is italic */
 }
 
 .shiny-text::after {
   content: attr(data-text);
   position: absolute;
-  left: -10%; 
-  top: -3%; 
-  width: 120%; 
-  height: 120%; 
+  left: -20%; /* Adjusted for larger text and to accommodate the slant */
+  top: -3%; /* Adjusted for larger text */
+  width: 140%; /* Increased width for better coverage */
+  height: 140%; /* Increased height for better coverage */
   z-index: 5;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 40%, white 50%, transparent 60%, transparent 100%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 30%, white 50%, transparent 70%, transparent 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  background-size: 300% 100%; 
+  background-size: 200% 100%; /* Adjusted for smoother effect */
   background-repeat: no-repeat;
   animation: shine 5s infinite linear;
 }
 
 @keyframes shine {
   0% {
-      background-position: 150% 0; 
+      background-position: 200% 0; /* Start the shine outside the text */
   }
   100% {
-      background-position: -150% 0; 
+      background-position: -200% 0; /* Move the shine across the text */
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) { /* Adjust for medium screens */
+  .shiny-text {
+      white-space: normal; /* Allow text to wrap */
+  }
+  .shiny-text::after {
+      left: -10%; /* Adjust as needed for better alignment */
+      top: -10%; /* Adjust as needed for better alignment */
+      width: 160%; /* Increased width to cover text properly */
+      height: 160%; /* Increased height to cover text properly */
+      background-size: 250% 100%; /* Adjusted size for smoother effect */
+  }
+}
+
+@media (max-width: 480px) { /* Adjust for small screens */
+  .shiny-text {
+      white-space: normal; /* Allow text to wrap */
+      min-width: 100px; /* Set a minimum width */
+  }
+  .shiny-text::after {
+      display: none; /* Hide the shiny effect */
   }
 }
