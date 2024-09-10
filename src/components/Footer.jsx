@@ -4,13 +4,13 @@ const footerData = {
   about: {
     heading: "ACOE",
     description:
-      "‘The Atharva Educational Trust’ believes in producing well discipline, practical oriented, highly knowledgeable Engineers to serve not only for themselves but for the society and nation. To make this dream come true, the Trust has developed the infrastructure first and proved their merit in getting recognition from Govt, of Maharashtra & A.I.C.T.E.",
+      "CSI, our vision is to foster a dynamic community where creativity meets technology, empowering students to become leaders in the ever-evolving digital world. We strive to create an environment that encourages innovation, collaboration, and continuous learning, enabling our members to develop the skills and mindset needed to drive technological advancement and make a meaningful impact on society.",
   },
   contact: {
     heading: "Contact",
     details: [
-      "atharvacoe.ac.in",
-      "022 4029 4949",
+      "csi@atharvacoe.ac.in",
+      "+91 93261 94769  ",
     ],
   },
   address: {

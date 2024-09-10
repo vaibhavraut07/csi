@@ -3,18 +3,18 @@ import React from 'react';
 const sections = [
   {
     id: '01',
-    title: 'Capitalize',
-    description: 'CSI attempts to capitalize on the abundant talent and ideas CSI attempts to capitalize on the abundant talent and ideas CSI attempts to capitalize on the abundant talent and ideas'
+    title: 'Skill Development',
+    description: 'CSI  frequently organizes seminars, workshops and training programs conducted by industry experts in various technological streams. The participating members can work  on these projects in workshops by  following along, in the process  developing  their skills and gain some real world  experience and knowledge needed for building industry-ready applications.'
   },
   {
     id: '02',
-    title: 'Innovate',
-    description: 'CSI provides a platform to bring innovative solutions to real-world problems, nurturing creative thinking.'
+    title: 'Networking and Mentorship',
+    description: 'Connect with industry leaders, researchers, and peers to expand your professional network while benefiting from guidance and mentorship from experienced professionals in the field.'
   },
   {
     id: '03',
-    title: 'Network',
-    description: 'Be part of a thriving community of professionals and students, expanding your network globally.'
+    title: 'Competitions and Events',
+    description: 'CSI organizes various contests, hackathons, and events where you can showcase your talents, compete with peers, and win recognition. These events also provide a platform to test your skills and gain practical experience.'
   }
 ];
 
