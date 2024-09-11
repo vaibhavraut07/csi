@@ -452,7 +452,7 @@ const BootcampDetails = () => {
           {bootcamp.speaker.map((speaker, index) => (
             <div key={index} className="bg-white border border-gray-200 shadow-lg rounded-lg sm:mx-4 p-4 sm:p-6 max-w-xs text-center drop-shadow-lg">
               <div className="w-28 h-28 sm:w-60 sm:h-60 mx-auto mb-4 rounded-full overflow-hidden">
-                <img src={speaker.img} alt={speaker.name} className="w-full h-full object-cover" />
+                <img src={speaker.img} alt={speaker.name} className="w-full h-full" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold mb-2">{speaker.name}</h3>
               <p className="text-gray-600">{speaker.role}</p>
