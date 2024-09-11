@@ -99,7 +99,7 @@ const bootcampData = {
         },
         {
           id: 2,
-          title: 'JavaScript, NodeJS and ExpressJS',
+          title: 'NodeJS with ExpressJS and PostgreSQL',
           points: [
             'Introduction to DOM Manipulation',
             'Selecting and Manipulating HTML Elements',
