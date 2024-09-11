@@ -405,12 +405,14 @@ const BootcampDetails = () => {
           <div className="max-w-4xl mx-auto">
             <p className="text-gray-900 text-lg sm:text-2xl font-semibold mb-2">{bootcamp.date}</p>
             <p className="text-gray-900 text-md sm:text-xl font-semibold mb-4 sm:mb-6">Atharva College of Engineering (Mumbai)</p>
+            <a href={"https://forms.gle/c5RUbXM5ghExL9Eq5"} target="_blank" rel="noopener noreferrer">
             <button className="bg-white text-black font-semibold border border-gray-500 px-4 sm:px-6 py-2 rounded-full hover:bg-gray-100 hover:border-gray-400 transition">
-              <a href={"https://forms.gle/c5RUbXM5ghExL9Eq5"} target="_blank" rel="noopener noreferrer">
+              
                 Register here - Google form link
                 <i className="fas fa-arrow-right ml-2 sm:ml-10"></i>
-              </a>
             </button>
+            </a>
+
           </div>
         </div>
  
