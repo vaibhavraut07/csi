@@ -39,7 +39,7 @@ const footerData = {
 
 function Footer() {
   return (
-    <footer className="bg-[#002567] text-gray-300 pt-14 sm:px-12 px-8">
+    <footer className="bg-[#002567] text-gray-300 pt-14 sm:px-10 px-6">
       <div className='flex flex-col'>
         <div className="mx-auto px-4 sm:px-6 lg:px-8 pb-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
@@ -96,13 +96,15 @@ function Footer() {
             </div>
           </div>
 
-          <div className="relative flex h-[14vw] md:h-[10vw] overflow-hidden justify-center mt-6">
-            <span
-              className="absolute top-[-7%] md:top-[-6vw] text-transparent text-[14vw] md:text-[17.5vw] font-productsans opacity-10 font-bold uppercase tracking-wide text-stroke-3px"
-            >
-              CSI - ACE
-            </span>
+          <div className="relative w-full h-[15.5vw] flex overflow:hidden justify-center mt-2">
+            <img
+              src="landingpage/csi-foot.svg"
+              alt="CSI - ACE Logo"
+              className="w-[95%] object-fit text-white"
+            />
           </div>
+
+
         </div>
       </div>
     </footer>
