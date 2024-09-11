@@ -365,7 +365,7 @@ const bootcampData = {
       {
         img: '/team/jay.svg',
         name: 'Jay Patel',
-        role: 'CSI Chairperson'
+        role: 'Chairperson'
       },
       {
         img: '/team/ayush.svg',

@@ -45,7 +45,7 @@ function Team() {
     },
     {
       "name": "Pratham Nibade",
-      "role": "Public Relation Lead",
+      "role": "Public Relations Lead",
       "imgpath": "/team/pratham.svg",
       "alt": "img"
     },
