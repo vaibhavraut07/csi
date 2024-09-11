@@ -12,7 +12,7 @@ function BootcampInfo() {
       "description":'REG FEES'
     },
     {
-      "title":"19/09/24",
+      "title":"18/09/24",
       "description":'START DATE'
     },
     {

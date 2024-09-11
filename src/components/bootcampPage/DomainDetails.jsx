@@ -48,9 +48,9 @@ function DomainDetails() {
   ]
   return (
     <section id='about'>
-    <div className="bg-gradient-to-b from-white to-[#0062f444]">
+    <div className="bg-gradient-to-b from-white to-[#0062f444] pt-[20vw]">
       <div className='px-10'>
-        <h1 className='text-black font-sans text-5xl font-medium text-center pt-24'>
+        <h1 className='text-black font-sans text-4xl sm:text-5xl font-medium text-center pt-0 sm:pt-24 '>
         Join a career-changing bootcamp
         </h1>
         <h2 className='text-[#919191] font-sans md:text-3xl text-2xl font-normal text-center pt-2'>Top-Notch Programs Designed for Future Leaders in Tech</h2>

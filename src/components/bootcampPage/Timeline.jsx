@@ -7,7 +7,7 @@ function Timeline() {
       date: '18 Sept',
       events: [
         {
-          icon: '/bootcamppage/timeline/linkedIn.png',
+          icon: '/bootcamppage/timeline/linkedin.png',
           title: 'LinkedIn',
           time: '12pm - 2pm'
         },
@@ -122,13 +122,13 @@ function Timeline() {
     setAnimatedElements((prevAnimatedElements) => {
       const newAnimatedElements = new Set(prevAnimatedElements);
       visibleElements.forEach((element) => {
-        const timeoutId = setTimeout(() => {
-          setAnimatedElements((prevAnimatedElements) => {
-            const newAnimatedElements = new Set(prevAnimatedElements);
-            newAnimatedElements.add(element);
-            return newAnimatedElements;
-          });
-        }, 2000);
+        // const timeoutId = setTimeout(() => {
+        //   setAnimatedElements((prevAnimatedElements) => {
+        //     const newAnimatedElements = new Set(prevAnimatedElements);
+        //     newAnimatedElements.add(element);
+        //     return newAnimatedElements;
+        //   });
+        // }, 2000);
       });
       return newAnimatedElements;
     });
@@ -167,7 +167,7 @@ function Timeline() {
                       </div>
 
                       {/* Center Dots */}
-                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-8 sm:w-12" />
+                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-4 sm:w-6" />
 
                       {/* Right Side (Date) */}
                       <div className={`w-1/2 sm:w-1/3 flex justify-start px-4 sm:px-8 ${
@@ -194,7 +194,7 @@ function Timeline() {
                       </div>
 
                       {/* Center Dots */}
-                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-8 sm:w-12" />
+                      <img src="/bootcamppage/timeline/circle.png" alt="" className="w-4 sm:w-6" />
 
                       {/* Right Side (Title) */}
                       <div className={`w-1/2 sm:w-1/3 flex justify-start px-4 sm:px-8 ${

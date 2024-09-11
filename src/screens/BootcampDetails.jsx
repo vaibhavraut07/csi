@@ -59,14 +59,14 @@ const bootcampData = {
 
     speaker: [
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/shree.svg',
+        name: 'Shree Shinde',
+        role: 'UI UX Lead'
       },
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/shravani.svg',
+        name: 'Shravani Pawar',
+        role: 'UI UX Lead'
       }
     ]
   },
@@ -81,9 +81,9 @@ const bootcampData = {
     about: {
       headline: 'Build full-stack applications with CSS, JavaScript, NodeJS and ExpressJS',
       keypoints: [
-        'Get know to UI/UX and Figma resource',
-        'Hands on Figma creation experience',
-        'Get trained by well versed professionals'
+        "Master JavaScript fundamentals",
+    "Hands-on with NodeJS and ExpressJS",
+    "Understand APIs and client-server communication",
       ],
       lecture: [
         {
@@ -115,20 +115,20 @@ const bootcampData = {
 
     speaker: [
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
+        img: '/team/akash.svg',
+        name: 'Akash Kolakkal',
         role: 'Developer'
       },
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
+        img: '/team/nishit.svg',
+        name: 'Nishit Prabhu',
         role: 'Developer'
       }
     ]
   },
 
   aiml: {
-    img: '/bootcamppage/detailspage/ai_ml.png',
+    img: '/bootcamppage/detailspage/ai_ml.png',          
     title: 'AI & ML Bootcamp',
     date: 'Sep 20-21',
     reg_link: '#',
@@ -137,9 +137,9 @@ const bootcampData = {
     about: {
       headline: 'Learn the principle of design, Wireframing, Prototyping and Mastering Figma',
       keypoints: [
-        'Get know to UI/UX and Figma resource',
-        'Hands on Figma creation experience',
-        'Get trained by well versed professionals'
+      "Understand the core concepts of AI and ML",
+      "Learn different types of machine learning algorithms",
+      "Work on real-world projects with expert guidance",
       ],
       lecture: [
         {
@@ -177,15 +177,11 @@ const bootcampData = {
 
     speaker: [
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/chinmae.svg',
+        name: 'Chinmayee Bidaye',
+        role: 'GDSC Lead'
       },
-      {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
-      }
+      
     ]
   },
 
@@ -199,9 +195,9 @@ const bootcampData = {
     about: {
       headline: 'Master network security, ethical hacking and hands-on tools',
       keypoints: [
-        'Get know to UI/UX and Figma resource',
-        'Hands on Figma creation experience',
-        'Get trained by well versed professionals'
+      "Learn ethical hacking techniques and cybersecurity fundamentals",
+      "Understand different types of cyberattacks and defense strategies",
+      "Gain hands-on experience with real-world cybersecurity tools",
       ],
       lecture: [
         {
@@ -242,15 +238,11 @@ const bootcampData = {
 
     speaker: [
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/vedant.svg',
+        name: 'Vedant Farkade',
+        role: 'Techincal Lead'
       },
-      {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
-      }
+      
     ]
   },
 
@@ -264,68 +256,52 @@ const bootcampData = {
     about: {
       headline: 'Learn the principle of design, Wireframing, Prototyping and Mastering Figma',
       keypoints: [
-        'Get know to UI/UX and Figma resource',
-        'Hands on Figma creation experience',
-        'Get trained by well versed professionals'
+      "Master interview preparation techniques",
+      "Get insights into group discussions and aptitude tests",
+      "Learn technical preparation strategies for coding and DSA",
       ],
       lecture: [
         {
           id: 1,
           title: '',
           points: [
-            'Introduction to UI/UX Design',
-            'Understanding the Design Process',
-            'Tools and Software',
-            'User Research',
-            'Wireframing and Prototyping',
-            'Visual Design Principle',
-            'Usability Testing',
-            'Design System and Style Guide',
-            'Mobile vs. Web Design',
-            'Interaction Design',
-            'Accessibility in Design',
-            'Career Path in UI/UX'
+          "Interview Preparation at a Glance",
+          "Group Discussions",
+          "Aptitude Tests Preparation",
+          "Technical Preparation (Leetcode, DSA, Competitive Programming)",
+          "The Importance of Your Projects and Hackathons",
+          "Overview of Semi-tech and Non-tech Roles (Management and Finance)",
+          "Keeping Up the Spirit and Dealing with Rejections",
+          "Current Market Trends",
+          "Masters Options",
+          "Resume and Cover Letter Writing",
+          "LinkedIn and Networking Skills",
+          "On-ground Experience with Internships and Extra-curriculars",
+          "Professional Etiquette",
+          "Understanding Salary Packages and Company Contracts",
+          "Presentation Skills"
           ]
         },
-        {
-          id: 2,
-          title: '',
-          points: [
-            'Figma: Introduction',
-            'Inspiration and Where to Use Figma',
-            'Figma UI Structure: Toolbar, Left & Right Sidebar, Frames, Groups, Auto-layout',
-            'Typography and Color Styles',
-            'Wireframing and Prototyping with Animation',
-            'Iconography and UI Elements',
-            'Animation in Figma',
-            'Introduction to Figma to Lottie',
-            'Single/Multiple Frame Animations',
-            'Lottie Creation with Prototyping',
-            'Text & Gradient',
-            'Advance Animation with Figma to Lottie: Stroke & Masks, Multi-varient Component Animations',
-            'Animation Tip & Tricks'
-          ]
-        }
       ]
     },
 
     speaker: [
-      {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
-      },
-      {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
-      }
+      // {
+      //   img: '/bootcamppage/speakers/kaneki.jpg',
+      //   name: 'D Curse',
+      //   role: 'Developer'
+      // },
+      // {
+      //   img: '/bootcamppage/speakers/kaneki.jpg',
+      //   name: 'D Curse',
+      //   role: 'Developer'
+      // }
     ]
   },
 
   git: {
     img: '/bootcamppage/detailspage/git.png',
-    title: 'Git & GitHub Bootcamp',
+    title: 'LinkedIn, Git & GitHub',
     date: 'Sep 20-21',
     reg_link: '#',
     
@@ -333,46 +309,51 @@ const bootcampData = {
     about: {
       headline: 'Learn the principle of design, Wireframing, Prototyping and Mastering Figma',
       keypoints: [
-        'Get know to UI/UX and Figma resource',
-        'Hands on Figma creation experience',
-        'Get trained by well versed professionals'
+    "Create a LinkedIn profile and resume that stand out",
+    "Optimize your online presence and networking strategies",
+    "Learn how to manage code using Git and collaborate with GitHub",
+    "Get hands-on experience with version control and contributing to open source"
       ],
       lecture: [
         {
           id: 1,
-          title: '',
-          points: [
-            'Introduction to UI/UX Design',
-            'Understanding the Design Process',
-            'Tools and Software',
-            'User Research',
-            'Wireframing and Prototyping',
-            'Visual Design Principle',
-            'Usability Testing',
-            'Design System and Style Guide',
-            'Mobile vs. Web Design',
-            'Interaction Design',
-            'Accessibility in Design',
-            'Career Path in UI/UX'
-          ]
-        },
+      "title": "LinkedIn and Resume Building",
+      "points": [
+        "Creating a professional LinkedIn profile",
+        "Writing a strong 'About' section on LinkedIn",
+        "Optimizing your headline, summary, and experiences",
+        "Highlighting skills and getting endorsements",
+        "Networking effectively and connecting with professionals",
+        "Understanding the structure of a good resume",
+        "Tailoring your resume for specific jobs",
+        "Showcasing your skills and achievements with action verbs",
+        "Creating a one-page resume that stands out",
+        "Common resume mistakes to avoid",
+        "Utilizing LinkedIn recommendations for your resume"
+      ]
+    },
         {
           id: 2,
-          title: '',
-          points: [
-            'Figma: Introduction',
-            'Inspiration and Where to Use Figma',
-            'Figma UI Structure: Toolbar, Left & Right Sidebar, Frames, Groups, Auto-layout',
-            'Typography and Color Styles',
-            'Wireframing and Prototyping with Animation',
-            'Iconography and UI Elements',
-            'Animation in Figma',
-            'Introduction to Figma to Lottie',
-            'Single/Multiple Frame Animations',
-            'Lottie Creation with Prototyping',
-            'Text & Gradient',
-            'Advance Animation with Figma to Lottie: Stroke & Masks, Multi-varient Component Animations',
-            'Animation Tip & Tricks'
+          title: 'Git Workshop',
+        "points":  [
+            "What is a Version Control System? What is Git? Why do you need it?",
+            "Creating a Git repo: git init",
+            "Staging and Committing Changes",
+            "Understanding the difference between staging and committing",
+            "Checking Git History",
+            "Git Reset and Revert",
+            "Git Blame",
+            "Git Stash",
+            "Branching: git branch, checkout, merge",
+            "Intro to GitHub or Git Server. What is GitHub? How is it different from Git?",
+            "Creating a GitHub Account",
+            "Configuring local Git with credentials",
+            "Creating a Repo on GitHub then cloning",
+            "Creating a repo locally and adding a remote",
+            "Git Push",
+            "Git Pull",
+            "Handling Conflicts",
+            "Contributing to open source"
           ]
         }
       ]
@@ -380,14 +361,14 @@ const bootcampData = {
 
     speaker: [
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/jay.svg',
+        name: 'Jay Patel',
+        role: 'CSI Chairperson'
       },
       {
-        img: '/bootcamppage/speakers/kaneki.jpg',
-        name: 'D Curse',
-        role: 'Developer'
+        img: '/team/ayush.svg',
+        name: 'Aysuh Sonar',
+        role: 'Treasurer'
       }
     ]
   },
@@ -413,30 +394,32 @@ const BootcampDetails = () => {
       {/* BOOTCAMP HEADER */}
       <div className="mt-32 sm:mt-40"> 
         <div className="relative -z-10">
-          <img src={bootcamp.img} alt={bootcamp.title} className="w-[90%] mx-auto h-[300px] sm:h-[500px] object-cover rounded-[25px]" />
-          <div className="absolute w-[90%] mx-auto h-[300px] sm:h-[500px] inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-[25px]"></div>
-          <div className="absolute bottom-0 left-5 sm:left-40 mx-auto p-4">
+          <img src={bootcamp.img} alt={bootcamp.title} className="w-[90%] sm:w-[80%] mx-auto h-[300px] sm:h-[500px] object-cover rounded-[25px]" />
+          <div className="absolute w-[90%] sm:w-[80%] mx-auto h-[300px] sm:h-[500px] inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-[25px]"></div>
+          <div className="absolute bottom-0 left-5 sm:left-[15rem] mx-auto p-4">
             <h1 className="text-white text-3xl sm:text-6xl font-bold drop-shadow-lg">{bootcamp.title}</h1>
           </div>
         </div>
-
+        <div className='mx-auto"'>
         <div className="px-8 sm:px-8 pt-6 pb-12 sm:py-10">
-          <div className="max-w-2xl mx-auto sm:ml-20">
+          <div className="max-w-4xl mx-auto">
             <p className="text-gray-900 text-lg sm:text-2xl font-semibold mb-2">{bootcamp.date}</p>
             <p className="text-gray-900 text-md sm:text-xl font-semibold mb-4 sm:mb-6">Atharva College of Engineering (Mumbai)</p>
+            <a href={"https://forms.gle/c5RUbXM5ghExL9Eq5"} target="_blank" rel="noopener noreferrer">
             <button className="bg-white text-black font-semibold border border-gray-500 px-4 sm:px-6 py-2 rounded-full hover:bg-gray-100 hover:border-gray-400 transition">
-              <a href={bootcamp.reg_link} target="_blank" rel="noopener noreferrer">
+              
                 Register here - Google form link
                 <i className="fas fa-arrow-right ml-2 sm:ml-10"></i>
-              </a>
             </button>
+            </a>
+
           </div>
         </div>
-
+ 
       {/* EVENT DETAILS */}
         <h1 className="text-3xl sm:text-4xl font-bold text-center">ABOUT THE EVENT</h1>
         <div className="px-8 sm:px-8 py-6 sm:py-10">
-          <div className="max-w-4xl mx-auto sm:ml-20">
+          <div className="max-w-4xl mx-auto">
             <h2 className="text-[#919191] text-lg sm:text-2xl mb-4">{bootcamp.about.headline}</h2>
             
             <ul className="list-disc list-inside mb-6 sm:mb-10">
@@ -461,7 +444,7 @@ const BootcampDetails = () => {
             ))}
           </div>
         </div>
-
+        </div>
       {/* SPEAKERS SECTION */}
       <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-center">SPEAKER</h1>
       <div className="px-4 sm:px-8 py-6 sm:py-10">
@@ -469,7 +452,7 @@ const BootcampDetails = () => {
           {bootcamp.speaker.map((speaker, index) => (
             <div key={index} className="bg-white border border-gray-200 shadow-lg rounded-lg sm:mx-4 p-4 sm:p-6 max-w-xs text-center drop-shadow-lg">
               <div className="w-28 h-28 sm:w-60 sm:h-60 mx-auto mb-4 rounded-full overflow-hidden">
-                <img src={speaker.img} alt={speaker.name} className="w-full h-full object-cover" />
+                <img src={speaker.img} alt={speaker.name} className="w-full h-full" />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold mb-2">{speaker.name}</h3>
               <p className="text-gray-600">{speaker.role}</p>

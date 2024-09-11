@@ -11,6 +11,12 @@ module.exports = {
         tertiary: '#C3DAFC', 
         quaternary: '#0062F4',
       },
+      boxShadow: {
+        'glow': '0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(0, 150, 255, 0.4)',
+      },
+      textShadow: {
+        'glow': '0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5)',
+      },
       fontFamily: {
         sans: ['Google Sans', 'sans-serif'],
         bai: ['Bai Jamjuree', 'sans-serif'],
@@ -26,10 +32,10 @@ module.exports = {
         },
         marquee: {
           '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(-100%)' },
         },
         marquee2: {
-          '0%': { transform: 'translateX(50%)' },
+          '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
         },
         fadeIn: {
@@ -59,8 +65,8 @@ module.exports = {
       },
       animation: {
         shine: 'shine 5s linear infinite',
-        marquee: 'marquee 15s linear infinite',
-        marquee2: 'marquee2 15s linear infinite',
+        marquee: 'marquee 30s linear infinite',
+        marquee2: 'marquee2 30s linear infinite',
         fadeIn: 'fadeIn 1s ease-in-out',
         fadeInLeft: 'fadeInLeft 1.5s ease-in-out',
         fadeInRight: 'fadeInRight 1.5s ease-in-out',

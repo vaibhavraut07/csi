@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutUs() {
   return (
-    <section id="about" className=" mt-20 flex flex-col items-center justify-center bg-white ">
+    <section id="about" className=" pt-14 sm:pt-20 flex flex-col items-center justify-center bg-white ">
       {/* Title */}
       <div className="text-center mb-10 relative flex items-center justify-center w-full ">
         {/* Left line */}
@@ -10,8 +10,8 @@ export default function AboutUs() {
 
         {/* Text */}
         <div className="relative flex flex-col items-center">
-          <h2 className="text-8xl font-black font-sans text-primary absolute top-10 left-1/2 transform -translate-x-1/2 z-10 tracking-tight">US</h2>
-          <h2 className="text-8xl font-black font-sans text-[#C3DAFC] relative z-0 tracking-tight">ABOUT</h2>
+          <h2 className="text-6xl sm:text-8xl font-black font-sans text-primary absolute top-10 left-1/2 transform -translate-x-1/2 z-10 tracking-tight">US</h2>
+          <h2 className="text-6xl sm:text-8xl font-black font-sans text-[#C3DAFC] relative z-0 tracking-tight">ABOUT</h2>
         </div>
 
         {/* Right line */}
@@ -19,8 +19,8 @@ export default function AboutUs() {
       </div>
 
       {/* Description */}
-      <div className="max-w-6xl text-center text-gray-700 px-6 mt-20">
-        <p className="text-2xl font-medium font-sans text-black">
+      <div className="max-w-6xl px-8  mt-14 sm:mt-20">
+        <p className=" text-xl sm:text-2xl font-normal sm:font-medium text-justify sm:text-center font-sans text-black">
           The Computer Society Of India is a non-profit professional body that meets to exchange views and
           information to learn and share ideas. Being a national level committee, we work together to discuss
           technology with like-minded people. CSI is known for conducting a plethora of events ranging from
