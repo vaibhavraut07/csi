@@ -7,7 +7,7 @@ function Timeline() {
       date: '18 Sept',
       events: [
         {
-          icon: '/bootcamppage/timeline/linkedIn.png',
+          icon: '/bootcamppage/timeline/linkedin.png',
           title: 'LinkedIn',
           time: '12pm - 2pm'
         },
