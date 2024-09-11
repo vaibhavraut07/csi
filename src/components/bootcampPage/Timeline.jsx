@@ -122,13 +122,13 @@ function Timeline() {
     setAnimatedElements((prevAnimatedElements) => {
       const newAnimatedElements = new Set(prevAnimatedElements);
       visibleElements.forEach((element) => {
-        const timeoutId = setTimeout(() => {
-          setAnimatedElements((prevAnimatedElements) => {
-            const newAnimatedElements = new Set(prevAnimatedElements);
-            newAnimatedElements.add(element);
-            return newAnimatedElements;
-          });
-        }, 2000);
+        // const timeoutId = setTimeout(() => {
+        //   setAnimatedElements((prevAnimatedElements) => {
+        //     const newAnimatedElements = new Set(prevAnimatedElements);
+        //     newAnimatedElements.add(element);
+        //     return newAnimatedElements;
+        //   });
+        // }, 2000);
       });
       return newAnimatedElements;
     });

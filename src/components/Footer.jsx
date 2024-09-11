@@ -2,9 +2,9 @@ import React from 'react';
 
 const footerData = {
   about: {
-    heading: "ACOE",
+    heading: "CSI-ACE",
     description:
-      "CSI, our vision is to foster a dynamic community where creativity meets technology, empowering students to become leaders in the ever-evolving digital world. We strive to create an environment that encourages innovation, collaboration, and continuous learning, enabling our members to develop the skills and mindset needed to drive technological advancement and make a meaningful impact on society.",
+      "At CSI, our vision is to foster a dynamic community where creativity meets technology, empowering students to become leaders in the ever-evolving digital world. We strive to create an environment that encourages innovation, collaboration, and continuous learning, enabling our members to develop the skills and mindset needed to drive technological advancement and make a meaningful impact on society.",
   },
   contact: {
     heading: "Contact",

@@ -35,7 +35,7 @@ function Team() {
     },
     {
       "name": "Akash Kolakkal",
-      "role": "Web dev Lead",
+      "role": "Web Dev Lead",
       "imgpath": "/team/akash.svg",
       "alt": "img"
     },
@@ -78,7 +78,7 @@ function Team() {
     },
     {
       "name": "Pratham Nibade",
-      "role": "Public relation Lead",
+      "role": "Public Relation Lead",
       "imgpath": "/team/pratham.svg",
       "alt": "img"
     },
