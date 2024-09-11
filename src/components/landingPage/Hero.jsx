@@ -6,7 +6,7 @@ export default function Hero() {
   useEffect(() => {
     const updateImageSrc = () => {
       if (window.innerWidth < 840) {
-        setImgSrc("/landingpage/hero-responsive.svg");
+        setImgSrc("/landingpage/Hero-responsive.svg");
       } else {
         setImgSrc("/landingpage/Hero-img.svg");
       }

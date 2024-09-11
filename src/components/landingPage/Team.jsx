@@ -9,34 +9,26 @@ function Team() {
       "imgpath": "/team/jay.svg",
       "alt": "img"
     },
-    {
-      "name":"Nishit Prabhu",
-      "role":"Secretary",
-      "imgpath":"/team/nishit.svg",
-      "alt": "img"
-    },
+    
     {
       "name": "Anand Subramani",
       "role": "Deputy Secretary",
       "imgpath": "/team/anand.svg",
       "alt": "img"
     },
-    {
-      "name": "Ayush Sonar",
-      "role": "Treasurer",
-      "imgpath": "/team/ayush.svg",
-      "alt": "img"
-    },
+    
     {
       "name": "Vedant Farkade",
       "role": "Technical Lead",
       "imgpath": "/team/vedant.svg",
       "alt": "img"
     },
+    
+    
     {
-      "name": "Akash Kolakkal",
-      "role": "Web Dev Lead",
-      "imgpath": "/team/akash.svg",
+      "name": "Shree Shinde",
+      "role": "UI UX Lead",
+      "imgpath": "/team/shree.svg",
       "alt": "img"
     },
     {
@@ -46,18 +38,49 @@ function Team() {
       "alt": "img"
     },
     {
-      "name": "Shree Shinde",
-      "role": "UI UX Lead",
-      "imgpath": "/team/shree.svg",
-      "alt": "img"
-    }]
-    const teamMembers2=[
-    {
-      "name": "Shravani Pawar",
-      "role": "UI UX Lead",
-      "imgpath": "/team/shravani.svg",
+      "name": "Parth Mhatre",
+      "role": "Sponsorship Lead",
+      "imgpath": "/team/parth.svg",
       "alt": "img"
     },
+    {
+      "name": "Pratham Nibade",
+      "role": "Public Relation Lead",
+      "imgpath": "/team/pratham.svg",
+      "alt": "img"
+    },
+    {
+      "name": "Rutuja Lubal",
+      "role": "Documentation Lead",
+      "imgpath": "/team/rutuja.svg",
+      "alt": "img"
+    },
+  ]
+    const teamMembers2=[
+      {
+        "name":"Nishit Prabhu",
+        "role":"Secretary",
+        "imgpath":"/team/nishit.svg",
+        "alt": "img"
+      },
+      {
+        "name": "Ayush Sonar",
+        "role": "Treasurer",
+        "imgpath": "/team/ayush.svg",
+        "alt": "img"
+      },
+      {
+        "name": "Akash Kolakkal",
+        "role": "Web Dev Lead",
+        "imgpath": "/team/akash.svg",
+        "alt": "img"
+      },
+      {
+        "name": "Shravani Pawar",
+        "role": "UI UX Lead",
+        "imgpath": "/team/shravani.svg",
+        "alt": "img"
+      },
     {
       "name": "Ajinkya Wankhede",
       "role": "Assi-Creative Lead",
@@ -74,24 +97,6 @@ function Team() {
       "name": "Vedansh Gothi",
       "role": "Management Lead",
       "imgpath": "/team/vedance.svg",
-      "alt": "img"
-    },
-    {
-      "name": "Pratham Nibade",
-      "role": "Public Relation Lead",
-      "imgpath": "/team/pratham.svg",
-      "alt": "img"
-    },
-    {
-      "name": "Parth Mhatre",
-      "role": "Sponsorship Lead",
-      "imgpath": "/team/parth.svg",
-      "alt": "img"
-    },
-    {
-      "name": "Rutuja Lubal",
-      "role": "Documentation Lead",
-      "imgpath": "/team/rutuja.svg",
       "alt": "img"
     },
   ];
