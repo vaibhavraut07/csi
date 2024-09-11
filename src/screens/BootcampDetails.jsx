@@ -107,7 +107,9 @@ const bootcampData = {
             'Code Concurrency',
             'Node JS: Using Native Node Modules, Importing Eternal Module Using NPM',
             'ExpressJS: Creating an Express Server,Introduction to Postman, Middlewares',
-            'React: Taught by Jamil'
+            'Basic SQL Commands',
+            'SQL & NoSQL',
+            'PostgresQL basics using pgAdmin',
           ]
         }
       ]
