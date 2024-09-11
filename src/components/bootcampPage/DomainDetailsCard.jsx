@@ -11,7 +11,7 @@ function DomainDetailsCard({ title, description, image, imageAlt, path }) {
           {description}
         </p>
       </div>
-      <div className='relative mt-10 md:mt-5 sm:mt-0'>
+      <div className='relative mt-5 md:mt-5 sm:mt-0'>
           <img className='rounded-bl-[10px] rounded-br-[10px]' src={image} alt={imageAlt} />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         <a href={path}>

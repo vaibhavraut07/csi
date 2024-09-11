@@ -22,8 +22,8 @@ function BootcampInfo() {
   ]
   return (
     <div className="bg-black">
-    <h1 className="font-sans text-[#F2D73B] text-4xl text-center pt-9">Bootcamp Information</h1>
-    <h2 className="font-sans text-[#858585] text-3xl text-center">All you need to know about events Information</h2>
+    <h1 className="font-sans text-[#F2D73B] sm:text-4xl text-3xl text-center pt-9">Bootcamp Information</h1>
+    <h2 className="font-sans text-[#858585] sm:text-3xl text-xl text-center">All you need to know about events Information</h2>
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9 pt-9 pb-12 mx-auto max-w-[1000px] '>
       {
         infocards.map((card,index) => (

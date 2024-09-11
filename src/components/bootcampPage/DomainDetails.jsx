@@ -33,14 +33,14 @@ function DomainDetails() {
     },
     {
       title: 'Placement & Industry Exposure',
-      description: 'A comprehensive guide to interview preparation, technical skills, career paths, and professional development for job seekers.',
+      description: 'A comprehensive Guide to interview prep, tech skills, and career growths for job seekers.',
       image: '/bootcamppage/domaindetails/placementscardimg.png',
       imageAlt: 'placementscardimg',
       path: '/bootcamp/dsa'
     },
     {
       title: 'Git & GitHub + LinkedIn',
-      description: 'An in-depth introduction to Git and GitHub, covering version control fundamentals, repository management, and open-source contributions.',
+      description: 'Intro to Git & GitHub: version control, repo management, and open-source contributions.',
       image: '/bootcamppage/domaindetails/gitlinkedincardimg.png',
       imageAlt: 'gitlinkedincardimg',
       path: '/bootcamp/git'
@@ -48,7 +48,7 @@ function DomainDetails() {
   ]
   return (
     <section id='about'>
-    <div className="bg-gradient-to-b from-white to-[#0062f444] pt-[20vw]">
+    <div className="bg-gradient-to-b from-white to-[#0062f444] pt-[8vw] sm:pt-[5vw]">
       <div className='px-10'>
         <h1 className='text-black font-sans text-4xl sm:text-5xl font-medium text-center pt-0 sm:pt-24 '>
         Join a career-changing bootcamp
@@ -70,7 +70,7 @@ function DomainDetails() {
           <h3 className="text-black font-sans font-bold leading-snug">Networking</h3>
         </div>
       </div>
-      <div className='grid grid-cols-1 sm-custom:grid-cols-2 lg-custom:grid-cols-3 gap-9 pt-10 mx-auto max-w-[1197px] pb-28'>
+      <div className='grid grid-cols-1 sm-custom:grid-cols-2 text-xl lg-custom:grid-cols-3 gap-9 pt-10 mx-auto max-w-[1197px] pb-28'>
         {cardDetails.map((card, index) => (
               <DomainDetailsCard key={index} title={card.title} description={card.description} image={card.image} path={card.path}/>
           ))}   

@@ -104,7 +104,7 @@ function Team() {
   return (
     <div className='bg-[#94BFFF] py-10 px-6 sm:px-0 sm:py-20 sm:pl-20'>
       <div className='flex flex-col lg:flex-row gap-12'>
-        <div className='flex flex-col w-full lg:w-[40vw] text-3xl sm:text-5xl lg:text-6xl pl-[5vw] justify-center text-[#5E5E5E] font-productsansmedium font-medium leading-tight'>
+        <div className='flex flex-col w-full lg:w-[40vw] text-5xl sm:text-5xl lg:text-6xl pl-[5vw] justify-center text-[#5E5E5E] font-productsansmedium font-medium leading-tight'>
           <div>Meet Our</div>
           <div className='flex flex-row gap-4 items-center'>
             <div>Team</div>
