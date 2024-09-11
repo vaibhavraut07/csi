@@ -76,10 +76,10 @@ body {
       white-space: normal; /* Allow text to wrap */
   }
   .shiny-text::after {
-      left: -30%; 
+      left: 0%; 
       top: 5%; /* Adjust as needed for better alignment */
-      width: 160%; /* Increased width to cover text properly */
-      height: 160%; /* Increased height to cover text properly */
+      width: 100%; /* Increased width to cover text properly */
+      height: 100%; /* Increased height to cover text properly */
       background-size: 250% 100%; /* Adjusted size for smoother effect */
   }
 }
@@ -90,7 +90,7 @@ body {
       min-width: 100px; /* Set a minimum width */
   }
   .shiny-text::after {
-      left: -30%;
+      left: 0%;
       top: 5%;
   }
 }
