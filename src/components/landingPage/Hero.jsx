@@ -27,7 +27,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover rounded-[35px] p-5"
       />
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center">
-      <h1 className=" text-6xl sm:text-9xl font-bold mb-4 font-ethno text-primary p-5 shiny-text" data-text="CSI-ACE">
+      <h1 className=" text-6xl sm:text-8xl md:text-9xl font-bold mb-4 font-ethno text-primary p-5 shiny-text" data-text="CSI-ACE">
           <span className="inline">CSI-</span>
           <span className="inline">ACE</span>
         </h1>
