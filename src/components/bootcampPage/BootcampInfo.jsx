@@ -40,6 +40,7 @@ function BootcampInfo() {
       <div className="flex justify-center pb-12">
         <a
           href="https://forms.gle/c5RUbXM5ghExL9Eq5"
+          target='_blank'
           className="bg-black border-2 text-yellow rounded-full px-6 py-3 text-xl shine-text font-medium"
         >
           {registerCard.title}
