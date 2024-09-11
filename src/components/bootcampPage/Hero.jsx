@@ -19,7 +19,7 @@ function Hero() {
             background: "linear-gradient(180deg, #E0F0FF 0%, #F7FCFF 100%)",
           }}
         >
-          <div className=" items-start sm:items-start px-8">
+          <div className=" items-start sm:items-start px-2 sm:px-8">
             <div></div>
             <div className="flex flex-col gap-0 items-start  justify-center ">
               <div className="flex flex-row gap-10">
@@ -66,46 +66,40 @@ function Hero() {
           </div>
         </div>
         <div
-          className="bg-tertiary mt-[-90px] relative w-full h-[90%] flex sm:hidden "
-          style={{
-            background: "linear-gradient(180deg, #F7FCFF 0%, #E0F0FF 100%)",
-          }}
-        >
-          <div className=" flex flex-row gap-4 items-start justify-around relative">
-            <div className="absolute inset-y-0 left-0  w-1 bg-blue-600"></div>
-            <div className="flex flex-col w-[40%] mt-8 items-start justify-between gap-[28vw]">
-              {texts
-                .slice(0, Math.ceil(texts.length / 2))
-                .map((text, index) => (
-                  <div
-                    key={index}
-                    className="flex flex-row items-center gap-4 justify-start"
-                  >
-                    <div className="w-12 h-1 bg-[#FFE655]"></div>
-                    <div className="w-32 text-left text-black text-md font-medium mr-2">
-                      {text}
-                    </div>
-                  </div>
-                ))}
-            </div>
-            <div className="flex flex-col w-[50%] items-start justify-end  mt-[30vw] gap-[27vw]">
-              {texts.slice(Math.ceil(texts.length / 2)).map((text, index) => (
-                <div
-                  key={index}
-                  className="flex flex-row items-center gap-4 justify-end"
-                >
-                  <div className="w-36 text-center text-black text-md font-medium ml-2">
-                    {text}
-                  </div>
-                  <div className="absolute right-0 justify-center w-12  h-1 bg-[#FFE655]"></div>
-                  <div className="absolute inset-y-0 right-0 w-1 sm:text-[] bg-blue-600"></div>
-                </div>
-              ))}
-            </div>
-            <div className="mr-[2px] w-1 bg-blue-600"></div>
+  className="bg-tertiary mt-[-90px] relative w-full sm:p-10 h-[90%] flex sm:hidden"
+  style={{
+    background: "linear-gradient(180deg, #F7FCFF 0%, #E0F0FF 100%)",
+  }}
+>
+  <div className="flex flex-row items-start justify-between w-full relative">
+    <div className="absolute inset-y-0 left-0 w-1 bg-blue-600"></div>
+
+    <div className="flex flex-col w-[40%] items-start justify-between gap-10">
+      {texts.slice(0, Math.ceil(texts.length / 2)).map((text, index) => (
+        <div key={index} className="flex flex-row items-center gap-4">
+          <div className="w-12 h-1 bg-[#FFE655]"></div>
+          <div className="w-full max-w-[200px] text-left text-black text-md font-medium">
+            {text}
           </div>
         </div>
-      </div>
+      ))}
+    </div>
+
+    <div className="flex flex-col w-[40%] items-end justify-between gap-10">
+      {texts.slice(Math.ceil(texts.length / 2)).map((text, index) => (
+        <div key={index} className="flex flex-row items-center gap-4 justify-end">
+          <div className="w-full max-w-[200px] text-right text-black text-md font-medium">
+            {text}
+          </div>
+          <div className="w-12 h-1 bg-[#FFE655]"></div>
+        </div>
+      ))}
+    </div>
+
+    <div className="absolute inset-y-0 right-0 w-1 bg-blue-600"></div>
+  </div>
+</div>
+</div>
     </>
   );
 }
