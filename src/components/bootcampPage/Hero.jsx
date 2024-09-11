@@ -66,7 +66,7 @@ function Hero() {
           </div>
         </div>
         <div
-  className="bg-tertiary mt-[-90px] relative w-full p-5 sm:p-10 h-[90%] flex sm:hidden"
+  className="bg-tertiary mt-[-90px] relative w-full sm:p-10 h-[90%] flex sm:hidden"
   style={{
     background: "linear-gradient(180deg, #F7FCFF 0%, #E0F0FF 100%)",
   }}
