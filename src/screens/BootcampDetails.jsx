@@ -119,7 +119,7 @@ const bootcampData = {
       {
         img: '/team/akash.svg',
         name: 'Akash Kolakkal',
-        role: 'Developer'
+        role: 'Web Lead'
       },
       {
         img: '/team/nishit.svg',
@@ -183,6 +183,11 @@ const bootcampData = {
         name: 'Chinmayee Bidaye',
         role: 'GDSC Lead'
       },
+      {
+        img: '/team/ayush.svg',
+        name: 'Aysuh Sonar',
+        role: 'Treasurer'
+      }
       
     ]
   },
@@ -242,7 +247,7 @@ const bootcampData = {
       {
         img: '/team/vedant.svg',
         name: 'Vedant Farkade',
-        role: 'Techincal Lead'
+        role: 'Technical Lead'
       },
       
     ]
@@ -288,16 +293,16 @@ const bootcampData = {
     },
 
     speaker: [
-      // {
-      //   img: '/bootcamppage/speakers/kaneki.jpg',
-      //   name: 'D Curse',
-      //   role: 'Developer'
-      // },
-      // {
-      //   img: '/bootcamppage/speakers/kaneki.jpg',
-      //   name: 'D Curse',
-      //   role: 'Developer'
-      // }
+      {
+        img: '/team/arya.svg',
+        name: 'Arya Shirgaonkar',
+        role: 'Developer'
+      },
+      {
+        img: '/team/husain.svg',
+        name: 'Husain Rehmanji',
+        role: 'Developer'
+      }
     ]
   },
 
