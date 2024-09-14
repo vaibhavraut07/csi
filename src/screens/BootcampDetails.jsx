@@ -5,7 +5,7 @@ const bootcampData = {
   uiux: {
     img: '/bootcamppage/detailspage/ui_ux.png',
     title: 'UI/UX Design Bootcamp',
-    date: 'Sep 20-21',
+    date: 'Sep 19-20',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
@@ -74,7 +74,7 @@ const bootcampData = {
   webdev: {
     img: '/bootcamppage/detailspage/web_development.png',
     title: 'Web Development Bootcamp',
-    date: 'Sep 20-21',
+    date: 'Sep 19-20',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
@@ -132,7 +132,7 @@ const bootcampData = {
   aiml: {
     img: '/bootcamppage/detailspage/ai_ml.png',          
     title: 'AI & ML Bootcamp',
-    date: 'Sep 20-21',
+    date: 'Sep 23-24',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
@@ -195,7 +195,7 @@ const bootcampData = {
   cybersec: {
     img: '/bootcamppage/detailspage/cybersecurity.png',
     title: 'Cybersecurity Bootcamp',
-    date: 'Sep 20-21',
+    date: 'Sep 23-24',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
@@ -256,7 +256,7 @@ const bootcampData = {
   dsa: {
     img: '/bootcamppage/detailspage/placement.png',
     title: 'Placement & Industry Exposure Bootcamp',
-    date: 'Sep 20-21',
+    date: 'Sep 24',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
@@ -309,7 +309,7 @@ const bootcampData = {
   git: {
     img: '/bootcamppage/detailspage/git.png',
     title: 'LinkedIn, Git & GitHub',
-    date: 'Sep 20-21',
+    date: 'Sep 18',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
