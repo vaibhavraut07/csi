@@ -4,7 +4,7 @@ function Timeline() {
 
   const timelineData = [
     {
-      date: '18 Sept',
+      date: '19 Sept',
       events: [
         {
           icon: '/bootcamppage/timeline/linkedin.png',
@@ -19,7 +19,7 @@ function Timeline() {
       ],
     },
     {
-      date: '19 Sept',
+      date: '20 Sept',
       events: [
         {
           icon: '/bootcamppage/timeline/js.png',
@@ -34,7 +34,7 @@ function Timeline() {
       ],
     },
     {
-      date: '20 Sept',
+      date: '21 Sept',
       events: [
         {
           icon: '/bootcamppage/timeline/js.png',
