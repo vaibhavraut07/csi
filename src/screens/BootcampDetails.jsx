@@ -5,7 +5,7 @@ const bootcampData = {
   uiux: {
     img: '/bootcamppage/detailspage/ui_ux.png',
     title: 'UI/UX Design Bootcamp',
-    date: 'Sep 19-20',
+    date: 'Sep 20-21',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
@@ -74,7 +74,7 @@ const bootcampData = {
   webdev: {
     img: '/bootcamppage/detailspage/web_development.png',
     title: 'Web Development Bootcamp',
-    date: 'Sep 19-20',
+    date: 'Sep 20-21',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
@@ -309,7 +309,7 @@ const bootcampData = {
   git: {
     img: '/bootcamppage/detailspage/git.png',
     title: 'LinkedIn, Git & GitHub',
-    date: 'Sep 18',
+    date: 'Sep 19',
     reg_link: '#',
     
     /* ABOUT THE EVENT */
