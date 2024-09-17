@@ -12,7 +12,7 @@ function BootcampInfo() {
       "description": 'REG FEES'
     },
     {
-      "title": "18/09/24",
+      "title": "19/09/24",
       "description": 'START DATE'
     },
     {
@@ -22,7 +22,7 @@ function BootcampInfo() {
   ];
 
   const registerCard = {
-    "title": "Register Now!",
+    "title": "Register Closed!",
     "description": ''
   };
 

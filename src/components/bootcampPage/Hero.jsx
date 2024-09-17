@@ -31,7 +31,7 @@ function Hero() {
                 <div className="sm:ml-40 relative w-[150px] sm:w-[210px] h-[70px] sm:h-[137px]">
                   <div className="flex">
                     <img
-                      src="/bootcamppage/hero/18thsept.svg"
+                      src="/bootcamppage/hero/19thsept.svg"
                       alt="star"
                       className="absolute top-0 left-0 z-10 w-[100px] sm:w-[150px] md:w-[210px]"
                     />

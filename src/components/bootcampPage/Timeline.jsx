@@ -9,7 +9,7 @@ function Timeline() {
         {
           icon: '/bootcamppage/timeline/linkedin.png',
           title: 'LinkedIn',
-          time: '12pm - 2pm'
+          time: '11pm - 2pm'
         },
         {
           icon: '/bootcamppage/timeline/git.png',
@@ -24,7 +24,7 @@ function Timeline() {
         {
           icon: '/bootcamppage/timeline/js.png',
           title: 'Web Development',
-          time: '12pm - 2pm'
+          time: '11am - 1pm'
         },
         {
           icon: '/bootcamppage/timeline/figma.png',
@@ -39,12 +39,12 @@ function Timeline() {
         {
           icon: '/bootcamppage/timeline/js.png',
           title: 'Web Development',
-          time: '12pm - 2pm'
+          time: '10am - 12pm'
         },
         {
           icon: '/bootcamppage/timeline/figma.png',
           title: 'UI/UX Designing',
-          time: '3pm - 5pm'
+          time: '1pm - 3pm'
         },
       ],
     },
