@@ -6,7 +6,8 @@ import BootcampPage from "./screens/BootcampPage";
 import BootcampDetails from "./screens/BootcampDetails";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Spinner from "./components/Spinner"; // Import the Spinner component
+//import Spinner from "./components/Spinner";
+import SkeletonScreen from "./components/SkeletonScreen"; // Import the SkeletonScreen component
 
 function BootcampPrerequisites() {
   useEffect(() => {
@@ -35,7 +36,7 @@ function App() {
         <Router>
           <div className="App">
             {loading ? (
-              <Spinner /> // Show spinner while loading
+              <SkeletonScreen /> // Show skeleton screen while loading
             ) : (
               <Routes>
                 <Route path="/" element={<LandingPage />} /> 
